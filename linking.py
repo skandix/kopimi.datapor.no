@@ -3,15 +3,13 @@ import os
 
 forbidden_ = ['md', 'html']
 legal = ['pdf', 'txt']
+_path = f"./docs/courses/"
 
-for dir_ in os.listdir("./docs"):
-	print ("=========")
-	print(dir_)
-	print ("=========")
-	listing = os.listdir(f"./docs/{dir_}")
-
-	open(f"./docs/{dir_}/Files.md", "w")
-	file = open(f"./docs/{dir_}/Files.md", 'a+')
+for dir_ in os.listdir(f"{_path}"):
+	listing = os.listdir(f"{_path}{dir_}")
+	# if file exists, erase content, and write new content
+	open(f"{_path}{dir_}/Files.md", "w")
+	file = open(f"{_path}{dir_}/Files.md", 'a+')
 	file.write('#Files\n')
 	for l in listing:
 		file_ext = l.split('.')[-1]
@@ -22,22 +20,3 @@ for dir_ in os.listdir("./docs"):
 			#print(f"* [{l}]({l})\r")
 		else:
 			...
-	
-
-
-"""
-	print(os.getcwd())
-	os.chdir(f"./docs/{dir_}")
-	print(os.getcwd())
-	os.chdir(f"./docs/{dir_}")
-	
-	os.chdir(f"./docs/{dir_}")
-	open(f"./Files.md", "w")
-	file = open(f'./Files.md', 'a+')
-	file.write('#Files\n')
-	for l in listing:
-		file_ext = l.split('.')[-1]
-		if file_ext not in forbidden_:
-			file.write(f"* [{l}]({l})\n")
-		os.chdir('..')
-	"""

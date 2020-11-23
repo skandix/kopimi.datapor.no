@@ -1,0 +1,3 @@
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_4_2/cmake-build-debug/CMakeFiles/assignment_4_2.dir
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_4_2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_4_2/cmake-build-debug/CMakeFiles/rebuild_cache.dir

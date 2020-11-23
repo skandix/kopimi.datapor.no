@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_5_2/Student_t.h
+
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_5_2/main.c
+stdio.h
+-
+string.h
+-
+Student_t.h
+C:/Users/Paal/ikt101g19h/assignments/solutions/assignment_5_2/Student_t.h
+
