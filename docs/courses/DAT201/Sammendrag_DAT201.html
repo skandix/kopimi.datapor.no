@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        Sammendrag DAT201
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{display:block;background:#fff;padding:.5em;color:#333;overflow-x:auto}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{color:#55a532;background-color:#eaffea}.hljs-deletion{color:#bd2c00;background-color:#ffecec}.hljs-link{text-decoration:underline}.markdown-body{font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{font-size:16px;padding:0 1em;color:#777;border-left:.25em solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0 none}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram{text-align:center;background-color:inherit;border-radius:0;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg{max-width:100%;height:100%}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}.ui-infobar{position:relative;z-index:2;max-width:760px;margin:25px auto -25px;padding:0 15px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:998}.ui-toc-label{opacity:.3;background-color:#ccc;border:none;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff;transition:opacity .2s}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;transition:opacity .2s}.ui-toc-dropdown{margin-top:23px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child > ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:3px;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:cover}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-published-note{color:#337ab7}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;letter-spacing:.025em}.focus,:focus{outline:none!important}::-moz-focus-inner{border:0!important}body{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true" style="position: relative;"><p><a href="https://www.cs.hioa.no/~ulfu/appolonius/" target="_blank" rel="noopener">Appolonius</a></p><blockquote>
+<p>En algoritme; en beskrivelse av de operasjonene som skal til for å løse en gitt oppgave - dvs. en oppskrift.</p>
+</blockquote><h1 id="Sammendrag-DAT201"><a class="anchor hidden-xs" href="#Sammendrag-DAT201" title="Sammendrag-DAT201"><span class="octicon octicon-link"></span></a>Sammendrag DAT201</h1><h4 id="Effektiv-algoritme"><a class="anchor hidden-xs" href="#Effektiv-algoritme" title="Effektiv-algoritme"><span class="octicon octicon-link"></span></a>Effektiv algoritme</h4><p><em>Å implementere noe betyr å “oversette” til programkode.</em></p><p><strong>Krav til en algoritme</strong></p><ol>
+<li>Den er korrekt.</li>
+<li>Den er effektiv.</li>
+<li>At den kan implementere på flere måter.</li>
+</ol><h4 id="Algoritmeeffektivitet"><a class="anchor hidden-xs" href="#Algoritmeeffektivitet" title="Algoritmeeffektivitet"><span class="octicon octicon-link"></span></a>Algoritmeeffektivitet</h4><ul>
+<li>en algoritme er en beskrivelse av de arbeidsoperasjoenne som skal til for å løse en besmt oppgave</li>
+<li>en algoritme har vanligvis en dominerende operasjon.</li>
+<li>Algoritmen er effektiv hvis den dominerende opersjon utøfres realtivt sett få ganger (relativt til oppgavens strørrelse og oppgavens art)</li>
+<li>Antallet ganger den dominerened operasjon utføres kan ofte uttrykkes som en funksjon av oppgavens størrelse n. Denne funksjonen definerer algortimens orden</li>
+<li>Jo “mindre” algoritmes orden er, jo mer effektiv er den. F.eks. er linær orden generelt mereeffektivt enn kvadratisk orden.</li>
+</ul><h4 id="Vurdering-av-en-algoritmes"><a class="anchor hidden-xs" href="#Vurdering-av-en-algoritmes" title="Vurdering-av-en-algoritmes"><span class="octicon octicon-link"></span></a>Vurdering av en algoritmes</h4><p>Når vi skal vurdere effektiviteten til en algortimes skiller vi normalt mellom gjennomsnittlig effektivitet og  effektiviteten i det mest ugunstige tilfellet.</p><h4 id="Enkel-algorimeanalyse"><a class="anchor hidden-xs" href="#Enkel-algorimeanalyse" title="Enkel-algorimeanalyse"><span class="octicon octicon-link"></span></a>Enkel algorimeanalyse</h4><blockquote>
+<p>Algoritmeanalyse handler om å studere algoritmers egenskaper ved hjelp av matematiske og statiske teknikker.</p>
+</blockquote><p>Når vi skal vurdere effektiviteten til en algoritme skiller vi normalt mellom gjennomsnittlig effektivitet og effektiviteten i det meste ugunstige tilfellet.</p><h4 id="Ordnede-Tabeller"><a class="anchor hidden-xs" href="#Ordnede-Tabeller" title="Ordnede-Tabeller"><span class="octicon octicon-link"></span></a>Ordnede Tabeller</h4><p><strong>(Permutasjon; En endring av rekkefølgen av elementene i en liste)</strong></p><p>En samling verdier kan setes opp i en rekkefølgeø Hver slik rekkefølge utgjør en permutasjon av verdiene. En samling på <em>n</em> ulike verdier kan permuteres på n! (n fakultet) ulike måter. Det betyr at antallet forskjellige permutasjoner vokser svært fort når <em>n</em> vokser</p><h4 id="Binære-trær"><a class="anchor hidden-xs" href="#Binære-trær" title="Binære-trær"><span class="octicon octicon-link"></span></a>Binære trær</h4><p>Binære trær er ikke den typen vi finner ute i naturen, men det har struktur og egenskaper som minner om et botanisk tre. Vi skal derfor bruke beegreper som rot, grener og blader i slike trær. Vi tegner vanligvis et turneringstre opp/ned - roten øverst og forgreningene nedover.</p><p>turneringstreet kalles et binærtre, siden det ved hver forgrening går ut i to grener. Rundingene i treet kalles <strong>noder</strong>. Den øverste noden kalles <strong>rotnoden</strong> eller bare som oftest <strong>roten</strong>. Hver av node hører til et nivå eller en generasjon.</p><pre><code>Nivå(0) - Rotnode
+Nivå(1) - Node
+..osv
+</code></pre><p><img src="http://www.cs.hioa.no/~ulfu/appolonius/kap5/1/images/511a.png" alt="binærtre" title="binærtre"></p><h4 id="Binæresøk"><a class="anchor hidden-xs" href="#Binæresøk" title="Binæresøk"><span class="octicon octicon-link"></span></a>Binæresøk</h4><p>Hvis et problem skal løses, kan det ofte lønne seg å dele problemet i to eller flere mindre problemer, løse hver av dem for seg og så sette dette sammen til en løsning for hele problemet. Idéen er at det er enklere å løse en del av et problem enn å løse hele problemet.</p><p>Vi kan generelt søke etter en verdi i et lukket intervall a[v:h] der v står for venstrea og h for høyre endepunkt. I tillegg har vi i midten m = (v + h)/2 Vi kan tenke på én av to måter:</p><ol>
+<li>Verdien ligger enten på midten eller på en av sidene a[v:m-1] eller a[m+1:h]. Søkeområdet blir dermed delt i tre - ett element og to lukkede delintervaller.</li>
+<li>Alternativt kan vi nøye oss med å dele søkeomtrådet i to deler. Dvs. vi avgjør om den søkte verdien ligger i a[v:m] eller i a[m+1:h].</li>
+</ol><h5 id="Eksempel-permutasjon"><a class="anchor hidden-xs" href="#Eksempel-permutasjon" title="Eksempel-permutasjon"><span class="octicon octicon-link"></span></a>Eksempel permutasjon</h5><p>Gitt to permutasjoner p og q av tallene fra 1 til <em>n</em></p><pre><code>p = p0 p1 p2 ..... p(n-1)
+q = p0 p1 p2 ..... q(n-1)
+</code></pre><p>Vi sier at p og q er like hvis p(i) = q(i) for alle i=0,1,…n-1. Hvis ikke, la k være den minste indeksen slik at p(k) er forskjellige fra q(k). Vi sier at p &lt; q leksikografisk hvis p(k) &lt; q(k) og at p &gt; q leksikografisk hvis p(k) &gt; q(k)</p><p>####Testing for korrekthet - enhetstesting</p><p>Det første kravet som vi stiller til en algoritme er at den er korrekt. En algoritme som ikke virker eller som gir oss et galt resultat, har ingne verdi. en slik algortime sies å ha feil eller “bugs”</p><blockquote>
+<p>«The primary goal of unit testing is to take the smallest piece of testable software in the application, isolate it from the remainder of the code, and determine whether it behaves exactly as you expect.»</p>
+</blockquote><p>En enkel teknikk kalles <strong>papirtesting</strong>. Da skriver vi oo en serie testverdier eller forutsetninger og så sjekket vi nøye for hvert tilfellee, ved hjelp av programkoden, at alle operasjoner gjør det dem skal. Dette kan utvides til at vi lager en programbit der det testes ved hjelp av bestemte verdier/ forutsetninger og ved hjelp av tilfeldige valgte verdier/ forutsetninger</p><h5 id="Vi-må-passe-på-at-alle-mulige-tilfeller-tas-med-Det-vil-si"><a class="anchor hidden-xs" href="#Vi-må-passe-på-at-alle-mulige-tilfeller-tas-med-Det-vil-si" title="Vi-må-passe-på-at-alle-mulige-tilfeller-tas-med-Det-vil-si"><span class="octicon octicon-link"></span></a>Vi må passe på at alle mulige tilfeller tas med. Det vil si</h5><ol>
+<li>de normale eller vanlige tilfellene</li>
+<li>de spesielle, men likevel lovlige tilfellene</li>
+<li>de ulovlige tilfellene</li>
+</ol><h4 id="Generiske-algoritmer"><a class="anchor hidden-xs" href="#Generiske-algoritmer" title="Generiske-algoritmer"><span class="octicon octicon-link"></span></a>Generiske algoritmer</h4><p>Ordet generiske, brukes ofte i programmering. Ordet er mest kjent fra fag som biologi og botanikk. Generisk brukes om egenskaper, at en egenskap som er felles for alle individene innen en art.</p><h4 id="Omsalgsklasser"><a class="anchor hidden-xs" href="#Omsalgsklasser" title="Omsalgsklasser"><span class="octicon octicon-link"></span></a>Omsalgsklasser</h4><p>Det ville være upraktisk alltid å måtte kode en algorime for alle aktuelle grunleggende typer.<br>
+Hver grunnleggende datatype kan “gjøres om” til en objekttype ved hjelp av en såkalt omslagsklasse.</p><h4 id="Behandling-av-ÆØ-og-Å"><a class="anchor hidden-xs" href="#Behandling-av-ÆØ-og-Å" title="Behandling-av-ÆØ-og-Å"><span class="octicon octicon-link"></span></a>Behandling av Æ,Ø og Å</h4><blockquote>
+<p>når en på norsk skal ordne eller sortere navn, ord og generelt tegnstrenger, må en blant annet ta hensyn til at:</p>
+</blockquote><ul>
+<li>De «skandinaviske» bokstavene Æ (æ), Ø (ø) og Å (å) er ikke plassert sammen med de «latinske» bokstavene i tegnsettene.</li>
+<li>Mange steder (først og gremt i navn), men ikke alltid, skal aa forteres som å.</li>
+</ul><p>Bokstavene fra A - Z kalles de latinske bokstavene og brukes i alle “vestlige” språk og i andre stråk. det er en lang historie bak disse bokstavenes oppkomst, rekkeføle , utseemde og utale.</p><p><strong>ASCII</strong> = American Standard Code for Information Interchange</p><h4 id="Rekkefølgen-for-tegn-i-en-regel-bestemmes-ved-hjelp-av-relasjoner"><a class="anchor hidden-xs" href="#Rekkefølgen-for-tegn-i-en-regel-bestemmes-ved-hjelp-av-relasjoner" title="Rekkefølgen-for-tegn-i-en-regel-bestemmes-ved-hjelp-av-relasjoner"><span class="octicon octicon-link"></span></a>Rekkefølgen for tegn i en regel bestemmes ved hjelp av relasjoner:</h4><ol>
+<li>&lt; er den primære ulikhetene. Skiller tegn. F.eks. A &lt; B</li>
+<li>; er den sekundære ulikheten. Skiller mellom aksenter F.eks. À ; Á</li>
+<li>, er den tertiære ulikheten. skiller mellom liten og stor bokstav.F.eks. a, A</li>
+<li>= er identiteten. To tegn ses på som samme tegn F.eks.Aa = Å</li>
+</ol><h4 id="Rekursjon---Hva-er-en-rekursiv-metode"><a class="anchor hidden-xs" href="#Rekursjon---Hva-er-en-rekursiv-metode" title="Rekursjon---Hva-er-en-rekursiv-metode"><span class="octicon octicon-link"></span></a>Rekursjon - Hva er en rekursiv metode</h4><blockquote>
+<p>Når en metode brukes i et program sier vi at metodeen kalles ellet at det gjøres i et metodekall. En Rekursiv metode er en metode som kaller seg selv. Det betyr at metodents kode inneholdet et eller flere kall på den samme metoden.</p>
+</blockquote><h5 id="Eksempel-1"><a class="anchor hidden-xs" href="#Eksempel-1" title="Eksempel-1"><span class="octicon octicon-link"></span></a>Eksempel 1</h5><p>Vi har den samme idén, men i en litt annen form, i matematikk. følgende utrykk kalles enten en differenskugbubg ekker rekurensligning</p><pre><code>    a(n) = 2a(n-1) + 3a(n-2), n &gt; 2     a0 = 1, a(1) = 2
+</code></pre><p>i ligning står a(n) for det generell leddet i en tallfølge. Leddet a(n) er definert rekursivt, dvs. ved hjelp av de to leddene <strong>a(n-1) og a(n-2)</strong>. Verdieen til de to første leddene er oppgitt. Dermed kan vi regne ut de andre leddene<br>
+F.eks. vil <strong>a(2) = 2a(1) + 3a(0) = 2 * 2 + 3 * 1 = 7</strong></p><h4 id="Hva-skjer-når-en-rekursiv-metode-kjøres"><a class="anchor hidden-xs" href="#Hva-skjer-når-en-rekursiv-metode-kjøres" title="Hva-skjer-når-en-rekursiv-metode-kjøres"><span class="octicon octicon-link"></span></a>Hva skjer når en rekursiv metode kjøres</h4><p>Når en metode kalles, legges data knuttettil kallet på programstakken. De dataene som legges på programstakk ved et metodekall, skal vi har kalle et aktiviteslag. Laget består av kopier av parameterverdiene, lokale hjelpevariable og adresser/pekere. Når kaller et fulført blir plassen på stakken frigjort og programkontrollen får til første programsetning etter der metoden ble kalt.</p><h4 id="Krav-til-Rekursive-Metoder"><a class="anchor hidden-xs" href="#Krav-til-Rekursive-Metoder" title="Krav-til-Rekursive-Metoder"><span class="octicon octicon-link"></span></a>Krav til Rekursive Metoder</h4><p>Det er to krav som må være oppfylt for at en rekursiv metode skal virke etter hensikten:</p><ul>
+<li>
+<p>Krav 1</p>
+<ul>
+<li>Når metoden kalles seg selv en eller flere ganger må kallet (eller kallene) utføres på et tilfelle (eller en situasjon) som enklere enn det tilfellet (den situasjonen) vi opprinnelig hadde. I tilegg må kallene være slik at ting ikke gjentas, dvs. at noe som allerede er løst ikke løses på nytt.</li>
+</ul>
+</li>
+<li>
+<p>Krav 2</p>
+<ul>
+<li>Metodekallebne må utformes slik at det før eller senere oppstår et tilfelle (eller en situasjon) som kan bwehandles uten et nytt eller nye kall på metoden.<br>
+<strong>Dette kalles et basistilfelle (eller en basissituasjon).</strong></li>
+</ul>
+</li>
+</ul><p>Hvis en rekursiv metode oppfyller <strong>Disse to kravene</strong>, skal den teoretisk sett virke. Men det vil være situasjoner der en slik metode likevel feiler. Hvis metoden f.Eks gjør svært mange rekursive kall før det oppstår et basistilgelle, vil rekusjonsdybden, kunne bli så stor at det ikke lenger er plass til programstakken innefor det tilgjengelite minnet. Da kastes en StackOverflowError.</p><h4 id="Hanois-Tårn"><a class="anchor hidden-xs" href="#Hanois-Tårn" title="Hanois-Tårn"><span class="octicon octicon-link"></span></a>Hanois Tårn</h4><p>I brikkespillet hanois tårn har brikken from av en skive med hull i midten og alle har forskjellige diameter. Det er tre pinner og spiller strarter med at alle brikkene ligger på første pinne. De må ligge ordnet etter størrelse - brikken med størst diameter nederst og den emd minst diameter øverst. Dermed vil brukkene på første pinne se ut som er kjegleformet tårn.</p><p><em>Spillet går ut på å flytte brikkene fra pinne A til pinne C slik at det også blir et kjegleformet tårn på C. Under flyttingen er det ikke lov å legge en brikke oppå en som er mindre.</em></p><h4 id="Algoritmeanalyse"><a class="anchor hidden-xs" href="#Algoritmeanalyse" title="Algoritmeanalyse"><span class="octicon octicon-link"></span></a>Algoritmeanalyse</h4><ul>
+<li>Arbeidsoperasjoner</li>
+<li>Oppgave, Algoritme og Implementasjon</li>
+<li>Dominerende Operasjon</li>
+<li>Arbeidsmengde</li>
+<li>Orden</li>
+</ul><h4 id="En-tabellbasert-liste"><a class="anchor hidden-xs" href="#En-tabellbasert-liste" title="En-tabellbasert-liste"><span class="octicon octicon-link"></span></a>En tabellbasert liste</h4><p>Ordet liste brukes som navn på ulike begreper i vårt fag. vi oppfatter vanligvis en liste som en bestemt rekkefølge av ting. Det kan for eksampel være en prislist, en resultatliste, en bokliste, osv. I forrige Delkapitel (3.1) ble begrepet <strong>beholder</strong> diskutert… Her bestemmer vi at en liste rett og slett skal være en beholder der verdiene ligger i en bestmt rekkefølge. Med andre ord skal det være mulig måde å legge inn og å spørre etter en verdi på en bestmt plass (posisjon eller indeks) i en liste.</p><p>Derfor så lager vi nå et grensesnitt <em>liste</em> som da arbeider fra <strong>beholder</strong> og som har metoder som gjør at verdiene i en liste får en bestmt rekkeføkge. I en liste fra hverdagen f.eks en resultatliste, er det vanlig å si at den første i listen er nr.1. men her skal vi har det på samme måte som i en tabell, dvs. at den første i en list er listens element nr.0 (eller om vi vil har en posisjon indeks lik 0)</p><h4 id="En-Lenket-liste"><a class="anchor hidden-xs" href="#En-Lenket-liste" title="En-Lenket-liste"><span class="octicon octicon-link"></span></a>En Lenket liste</h4><p>en <em>lenket</em> liste eller en pekerkjede som det også kalles, består av en samling noder som er lenket sammen (i et kjede). Vi kan ha en enkeltlenket liste med hode, i en dobbellenket liste med hode og hale, en sirkulær dobbeltlenket liste og andre varianter</p><h5 id="Enkeltlenket-liste"><a class="anchor hidden-xs" href="#Enkeltlenket-liste" title="Enkeltlenket-liste"><span class="octicon octicon-link"></span></a>Enkeltlenket liste</h5><p><img src="http://www.cs.hioa.no/~ulfu/appolonius/kap3/3/images/331a.png" alt="enkeltlenket liste" title="enkeltlenket liste"></p><blockquote>
+<p>enkeltlenket liste</p>
+</blockquote><p>I en enkeltlenket liste har vi <em>en</em> peker (hode) som peker til den første (indeks 0) noden i listen, med en enkellenketliste må vi <strong>alltid</strong> lete fra venstre ende (hodet) #thatswhatshesaid</p><h5 id="Dobbeltlenket-liste"><a class="anchor hidden-xs" href="#Dobbeltlenket-liste" title="Dobbeltlenket-liste"><span class="octicon octicon-link"></span></a>Dobbeltlenket liste</h5><p>I en dobbeltlenket liste har vi to pekere - en med (hode) som peker til den første i listen og en (hale) som peker til den siste</p><p>fordeler er at når vi skal lete etter en node med oppgitt indeks, kan vi lete forfra hvis indeks hører hjemme i første halvpart av indekser og starte letingen bakfra hvis indeks hører til andre halvpart. Det vil i gjennomsnitt halvere arbeidet i forhold til en enkeltlenket liste.</p><p>ulempen med en dobbeltlenket list er selvfølgelig at vi må reservere plass til to pekere i hver node - en som peker til neste node og en som peker til forrige. Med andre ord må vi bruke dobbelt så mye minne til pekere som det vi behøver å bruke i enkeltlenket liste.</p><p><img src="http://www.cs.hioa.no/~ulfu/appolonius/kap3/3/images/331b.png" alt="dobbeltlenket liste" title="dobbeltlenket liste"></p><blockquote>
+<p>dobbeltlenket liste</p>
+</blockquote><p>I en sirkulær dobbeltlenket liste  kan vi gå både forover og bakover fra node 0. En peker kan være <em>null</em>. På figurene er det markert bed piler som ikke peger til en nodem men peker til “ingenting”.</p><p><img src="http://www.cs.hioa.no/~ulfu/appolonius/kap3/3/images/331c.png" alt="dobbeltlenket sirkulær liste" title="dobbeltlenket sirkulær liste"></p><blockquote>
+<p>dobbeltlenket sirkulær liste</p>
+</blockquote><h4 id="En-Stakk"><a class="anchor hidden-xs" href="#En-Stakk" title="En-Stakk"><span class="octicon octicon-link"></span></a>En Stakk</h4><p>En stakk er en datastruktur der det alltid er det objektet som ble lagt på sist som står for tur til å bli tatt ut. Vi kan tenke på en stakk som en stabel av objekter der et nytt objekt alltid legges øverst og der vi alltid legges øverst og der vi alltid (så sant stakken ikke er tom) tar det øverste hver gang et objekt skal tas ut.</p><p>Et annet navn som også brukes på dette begrepet, er en “Sist-inn-først-ut”-kø, eller på Engelsk heter det “Last-In-First-Out”-queue eller LIFO-queue.</p><h4 id="En-Kø"><a class="anchor hidden-xs" href="#En-Kø" title="En-Kø"><span class="octicon octicon-link"></span></a>En Kø</h4><p>En Kø er en datastruktur der objekter legges inn bakerst og tas ut forrest. Med andre ord er det objektet som ble lagt inn først (Det som har ventet lengst) som tas ut først</p><p>Et annet nav som også brukes på dette begrepet er en “Førs-inn-først-ut”-kø. På Engelsk heter det “First-in-first-out”-queue eller FIFO-queue</p><p>for å kunne bruke en kø trenger vi metoder av samme type som det en <strong>stakk</strong> har.</p><h4 id="En-Toveiskø-deque"><a class="anchor hidden-xs" href="#En-Toveiskø-deque" title="En-Toveiskø-deque"><span class="octicon octicon-link"></span></a>En Toveiskø <em>(deque)</em></h4><p>En stakk kan godt ses på som en gø der vi kun legger inn i og tar ut fra den ene enden av køen. I en vanlig kø derimot legger vi inn i den ene enden (bakerst) og tar ut fra den andre enden (forrest). begge disse ideene kan forenes i én type kø, dvs . en kø der vi både kan legge inn i begge ender og ta ut fra begge ender. en slik kø skal vi her kalle ne toveiskø. det engelske navnet for dette er deque og ordet er en forkortelse for <strong>double ended queue</strong></p><p><em>En toveiskø</em> må ha metoder med navn som klart indikerer i hvilken enda av køen vi opererer. Vi skal her bruke ordene først siste til dette formålet.</p><h4 id="Huffmantrær"><a class="anchor hidden-xs" href="#Huffmantrær" title="Huffmantrær"><span class="octicon octicon-link"></span></a>Huffmantrær</h4><p>et huffmantre er et fullt binærtre med spesielle egenskaper og brukes i forbindelse med komprimering av data. Det er oppkalt etter David Huffman.</p><p><strong>en viktig oppgave i databehandling er å kompirmere informasjon. Når informasjon skal sendes (f.eks over internet) eller lagres, er det gunstig at den “komprimeres” Det må i immdlertid foregå på en slik måte at informasjonens opprinnelige form og innhold kan gjenskapes.</strong></p><p>Den Omvendet prosessen, dvs. å gjenskape informasjonen, kalles “dekomprimering”</p><p>Anta som et eksempel at vi har en sekvens med 100 bokstaver og at den kun inneholder bokstavene fra A til H. Vi antar også at disse 100 bokstavene består av <strong>12 A-er</strong>, <strong>7 B-er</strong>, <strong>3 C-er</strong>, <strong>14 D-er</strong>, <strong>28 E-er</strong>, <strong>9 F-er</strong>, <strong>5 G-er</strong> og <strong>22 H-er</strong>.</p><p>Antallet forekomster av en bokstav kalles bokstavens frekvens. Denne sekvensen på 100 bokstaver kan ikke være tatt ut fra vanlig tekst. Da ville det ha vært mange flere forskjellige bokstaver (og andre tegn). Men også i vanlig tekst er det slik at enkelte bokstaver forekommer ofte og andre sjelden eller nesten aldri. I norsk tekst er det bokstaven (liten) e som er mest brukt. I denne eksempelsekvensen på 100 bokstaver er det E som er hyppigst og C som det er færrest av. En tabelloversikt over frekvensen til hver bokstav kalles en frekvensfordeling:</p><p><img src="http://i.imgur.com/bC6SDxi.png" alt="frekvenstabell for 8tegn" title="frekvenstabell for 8tegn"></p><h4 id="Hashing"><a class="anchor hidden-xs" href="#Hashing" title="Hashing"><span class="octicon octicon-link"></span></a>Hashing</h4><blockquote>
+<p>Hash, a dish of diced or chopped meat and often vegetables, as of leftover corned beef, veal, etc., and potatoes, sautéed in a frying pan or of meat, potatoes, and carrots cooked together in gravy</p>
+</blockquote><p><em>Dette minnes sterkt om den matretten vi kaller lapskaus.</em></p><p>I Databehandling er hashing en teknikk for å legge objekter i en tabell på en slik måte at både inlegging, søking og fjerning blir effektive operasjoner. Målet er at alle tre operasjoner skal være av konstant orden i gjennomsnitt. Teknikken består normalt av tre trinn:</p><ol>
+<li>Ovjektet deles opp i “Hakkes i biter” og delene brukes til å konstruere et (sort) heltall. Dette heltallet kalles objektets hashverdi.</li>
+<li>Hashverdien (heltallet) konverteres ved hjelp av en regel til en tabellposisjon, f.eks. ved å bruke resten når heltallet deles med tabellens lengde.</li>
+<li>Hvis tabellposisjonen er opptatt, må det finnes en regel som gjør det mulig å finne en annen tabellposisjon for objektet. dette kalles kollisjonsbehandling.</li>
+</ol><h4 id="Datastrukturer-for-grafer"><a class="anchor hidden-xs" href="#Datastrukturer-for-grafer" title="Datastrukturer-for-grafer"><span class="octicon octicon-link"></span></a>Datastrukturer for grafer</h4><blockquote>
+<p>En Graf er et system med noder og kanter mellom noder.</p>
+</blockquote><p>Den kan tegnes bed å la <strong>nodene</strong> være sirkler og <strong>kantene</strong> streker mellom nodene, vi skiller nodene fra hverandre ved å gi hver av dem et unikt navn dvs. en såkalt identifikator. <em>en bokstav brukes som navn på en node</em></p><p><img src="http://www.cs.hioa.no/~ulfu/appolonius/kap11/1/images/1111a.png" alt="graf med 7noder og 12kanter" title="graf med 7noder og 12kanter"></p><p><em>grafer kan også deles opp i flg. typer</em></p><p>![rettet og vektet graf](<a href="http://www.cs.hioa.no/~ulfu/appolonius/kap11/1/images/1111c.png" target="_blank" rel="noopener">http://www.cs.hioa.no/~ulfu/appolonius/kap11/1/images/1111c.png</a>"rettet og vektet graf")</p><p><strong>uvektet graf; kantene mellom nodene ikke har en verdi.</strong><br>
+<strong>vektet graf; kantene mellom nodene har en verdi.</strong></p><ul>
+<li>Enkel graf - det er maksimalt en kant mellom to noder og ingen noder har sløyfer.</li>
+<li>Multigraf - det kan være flere kanter mellom to noder, men ingen noder har sløyfer.</li>
+<li>Pseudograf - det kan være flere kanter mellom to noder og nder kan ha sløyfer</li>
+</ul><h4 id="Korteste-vei-i-en-labyrint"><a class="anchor hidden-xs" href="#Korteste-vei-i-en-labyrint" title="Korteste-vei-i-en-labyrint"><span class="octicon octicon-link"></span></a>Korteste vei i en labyrint</h4><p>![en labyrint med 20 rad og 20 kol](<a href="http://www.cs.hioa.no/~ulfu/appolonius/kap11/1/images/1116a.png" target="_blank" rel="noopener">http://www.cs.hioa.no/~ulfu/appolonius/kap11/1/images/1116a.png</a>"en labyrint med 20 rad og 20 kol")</p><p>En Labyrint kan ses på som en uvektet graf der hver “åpen” rute er en node. Fra hver rute går det kanter til maksimalt fire andre rute (til høyre, nedover, til venstre eller oppover).</p><p>I utgangspunktet inneholder rutene enten tallet 0 (åpen rute) eller tallet 1 (en vegg). Hvis vi kommer til en åpen rute f.eks. ved å gå til høyre, legger vi inn et tall (konstanten HØYRE) i ruten. For de andre retningene blir det tilsvarende. Dermed kan vi finne veien tilbake. Hvis f.eks. en rute inneholder HØYRE, går vi til venstre siden det er der veien kommer fra. Da passer vi samtidig på å sette et «kryss» i ruten for å markere at ruten hører til den korteste veien.</p><h4 id="Korteste-vei-i-en-graf"><a class="anchor hidden-xs" href="#Korteste-vei-i-en-graf" title="Korteste-vei-i-en-graf"><span class="octicon octicon-link"></span></a>Korteste vei i en graf</h4><h5 id="Dijkstras-metode"><a class="anchor hidden-xs" href="#Dijkstras-metode" title="Dijkstras-metode"><span class="octicon octicon-link"></span></a>Dijkstras metode</h5><blockquote>
+<p>En graf er et system med noder og kanter mellom noder. Grafen kalles <strong>rettet</strong></p>
+</blockquote><pre><code>Notasjon; Verdien til en node 'X' skrives som v(X) og lengden på kanten fra node 'X' til node 'Y' (avstanden fra 'X' til 'Y') skrives k(X,Y)
+</code></pre><p><strong>Algortimens Start</strong><br>
+Velg en node som <em>startnode</em>, farg noden <strong>gul</strong> og gi den verdien 0. Farg de nodene som er direkte etterfølgere til startnoden <strong>røde</strong> og gi dem som verdier den avstanden de har fra startnoden. Resten av nodene skal være <strong>grå</strong> og skal ikke ha noen verdier foreløpig.</p><ol>
+<li>
+<p>Hvis det <strong>ikke</strong> er noen røde noder igjen, så er vi ferdige. Hvis det er røde noder igjen, velg den blant de røde som har minst verdi. Hvis det er flere med samme minste verdi, så spiller det ingen rolle hvem av dem en velger. Kall den valgte noden <strong>X</strong></p>
+</li>
+<li>
+<p>De direkte etterfølgerme til <strong>X</strong> er enten farget grå, røde eller gule. De som er grå skal farges røde og får som verdier summen av verdien til <strong>X</strong> og avstandene fra <strong>X</strong>  til nodene (vektene/lengdene på kantene fra <strong>X</strong> til nodene). F.eks hvis en går direkte etterfølger til <strong>X</strong> heter <strong>Y</strong>, så skal verdiene til <strong>Y</strong> (v(Y)) bli lik v(X)+k(X,Y).</p>
+</li>
+</ol><p>Hvis en direkte etterfølger til <strong>X</strong> er rød, så skal den beholde sin farge. Den har, siden den er rød, allerede fårr en verdi. La <strong>Z</strong> være en rød direkte etterfølger til <strong>X</strong>. Hvis v(X) + k(X,Z) er mindre enn v(Z), så skal <strong>Z</strong> få v(X) + k(X,Z) som ny verdi! Hvis v(X) + k(X,Z) ikke er mindre enn v(Z), så skal Z beholde sin gamle verdi.</p><p>Hvis en direkte etterfølgere til <strong>X</strong> er gul, så skal den ikke endres verken i farge eller verdi.</p><ol start="3">
+<li>Farg noden <strong>X</strong> gul og gå så tilbake til 1.</li>
+</ol><p>Du kan nå sjekke forståelsen din ved å titte på en applett med Dijkstras algoritme. Den bruker fargene omtrent som beskrevet over. Den eneste forskjellen er at startnoden blir farget blå.</p></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#Sammendrag-DAT201" title="Sammendrag DAT201">Sammendrag DAT201</a><ul class="nav">
+<li><a href="#Effektiv-algoritme" title="Effektiv algoritme">Effektiv algoritme</a></li>
+<li class=""><a href="#Algoritmeeffektivitet" title="Algoritmeeffektivitet">Algoritmeeffektivitet</a></li>
+<li class=""><a href="#Vurdering-av-en-algoritmes" title="Vurdering av en algoritmes">Vurdering av en algoritmes</a></li>
+<li class=""><a href="#Enkel-algorimeanalyse" title="Enkel algorimeanalyse">Enkel algorimeanalyse</a></li>
+<li><a href="#Ordnede-Tabeller" title="Ordnede Tabeller">Ordnede Tabeller</a></li>
+<li class=""><a href="#Binære-trær" title="Binære trær">Binære trær</a></li>
+<li class=""><a href="#Binæresøk" title="Binæresøk">Binæresøk</a><ul class="nav">
+<li class=""><a href="#Eksempel-permutasjon" title="Eksempel permutasjon">Eksempel permutasjon</a></li>
+<li><a href="#Vi-må-passe-på-at-alle-mulige-tilfeller-tas-med-Det-vil-si" title="Vi må passe på at alle mulige tilfeller tas med. Det vil si">Vi må passe på at alle mulige tilfeller tas med. Det vil si</a></li>
+</ul>
+</li>
+<li class=""><a href="#Generiske-algoritmer" title="Generiske algoritmer">Generiske algoritmer</a></li>
+<li class=""><a href="#Omsalgsklasser" title="Omsalgsklasser">Omsalgsklasser</a></li>
+<li class=""><a href="#Behandling-av-ÆØ-og-Å" title="Behandling av Æ,Ø og Å">Behandling av Æ,Ø og Å</a></li>
+<li><a href="#Rekkefølgen-for-tegn-i-en-regel-bestemmes-ved-hjelp-av-relasjoner" title="Rekkefølgen for tegn i en regel bestemmes ved hjelp av relasjoner:">Rekkefølgen for tegn i en regel bestemmes ved hjelp av relasjoner:</a></li>
+<li class=""><a href="#Rekursjon---Hva-er-en-rekursiv-metode" title="Rekursjon - Hva er en rekursiv metode">Rekursjon - Hva er en rekursiv metode</a><ul class="nav">
+<li class=""><a href="#Eksempel-1" title="Eksempel 1">Eksempel 1</a></li>
+</ul>
+</li>
+<li><a href="#Hva-skjer-når-en-rekursiv-metode-kjøres" title="Hva skjer når en rekursiv metode kjøres">Hva skjer når en rekursiv metode kjøres</a></li>
+<li class=""><a href="#Krav-til-Rekursive-Metoder" title="Krav til Rekursive Metoder">Krav til Rekursive Metoder</a></li>
+<li><a href="#Hanois-Tårn" title="Hanois Tårn">Hanois Tårn</a></li>
+<li><a href="#Algoritmeanalyse" title="Algoritmeanalyse">Algoritmeanalyse</a></li>
+<li class=""><a href="#En-tabellbasert-liste" title="En tabellbasert liste">En tabellbasert liste</a></li>
+<li class=""><a href="#En-Lenket-liste" title="En Lenket liste">En Lenket liste</a><ul class="nav">
+<li><a href="#Enkeltlenket-liste" title="Enkeltlenket liste">Enkeltlenket liste</a></li>
+<li class=""><a href="#Dobbeltlenket-liste" title="Dobbeltlenket liste">Dobbeltlenket liste</a></li>
+</ul>
+</li>
+<li><a href="#En-Stakk" title="En Stakk">En Stakk</a></li>
+<li class=""><a href="#En-Kø" title="En Kø">En Kø</a></li>
+<li><a href="#En-Toveiskø-deque" title="En Toveiskø (deque)">En Toveiskø (deque)</a></li>
+<li class=""><a href="#Huffmantrær" title="Huffmantrær">Huffmantrær</a></li>
+<li class=""><a href="#Hashing" title="Hashing">Hashing</a></li>
+<li class=""><a href="#Datastrukturer-for-grafer" title="Datastrukturer for grafer">Datastrukturer for grafer</a></li>
+<li class=""><a href="#Korteste-vei-i-en-labyrint" title="Korteste vei i en labyrint">Korteste vei i en labyrint</a></li>
+<li class=""><a href="#Korteste-vei-i-en-graf" title="Korteste vei i en graf">Korteste vei i en graf</a><ul class="nav">
+<li class=""><a href="#Dijkstras-metode" title="Dijkstras metode">Dijkstras metode</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#Sammendrag-DAT201" title="Sammendrag DAT201">Sammendrag DAT201</a><ul class="nav">
+<li><a href="#Effektiv-algoritme" title="Effektiv algoritme">Effektiv algoritme</a></li>
+<li class=""><a href="#Algoritmeeffektivitet" title="Algoritmeeffektivitet">Algoritmeeffektivitet</a></li>
+<li class=""><a href="#Vurdering-av-en-algoritmes" title="Vurdering av en algoritmes">Vurdering av en algoritmes</a></li>
+<li class=""><a href="#Enkel-algorimeanalyse" title="Enkel algorimeanalyse">Enkel algorimeanalyse</a></li>
+<li><a href="#Ordnede-Tabeller" title="Ordnede Tabeller">Ordnede Tabeller</a></li>
+<li class=""><a href="#Binære-trær" title="Binære trær">Binære trær</a></li>
+<li class=""><a href="#Binæresøk" title="Binæresøk">Binæresøk</a><ul class="nav">
+<li class=""><a href="#Eksempel-permutasjon" title="Eksempel permutasjon">Eksempel permutasjon</a></li>
+<li><a href="#Vi-må-passe-på-at-alle-mulige-tilfeller-tas-med-Det-vil-si" title="Vi må passe på at alle mulige tilfeller tas med. Det vil si">Vi må passe på at alle mulige tilfeller tas med. Det vil si</a></li>
+</ul>
+</li>
+<li class=""><a href="#Generiske-algoritmer" title="Generiske algoritmer">Generiske algoritmer</a></li>
+<li class=""><a href="#Omsalgsklasser" title="Omsalgsklasser">Omsalgsklasser</a></li>
+<li class=""><a href="#Behandling-av-ÆØ-og-Å" title="Behandling av Æ,Ø og Å">Behandling av Æ,Ø og Å</a></li>
+<li><a href="#Rekkefølgen-for-tegn-i-en-regel-bestemmes-ved-hjelp-av-relasjoner" title="Rekkefølgen for tegn i en regel bestemmes ved hjelp av relasjoner:">Rekkefølgen for tegn i en regel bestemmes ved hjelp av relasjoner:</a></li>
+<li class=""><a href="#Rekursjon---Hva-er-en-rekursiv-metode" title="Rekursjon - Hva er en rekursiv metode">Rekursjon - Hva er en rekursiv metode</a><ul class="nav">
+<li class=""><a href="#Eksempel-1" title="Eksempel 1">Eksempel 1</a></li>
+</ul>
+</li>
+<li><a href="#Hva-skjer-når-en-rekursiv-metode-kjøres" title="Hva skjer når en rekursiv metode kjøres">Hva skjer når en rekursiv metode kjøres</a></li>
+<li class=""><a href="#Krav-til-Rekursive-Metoder" title="Krav til Rekursive Metoder">Krav til Rekursive Metoder</a></li>
+<li><a href="#Hanois-Tårn" title="Hanois Tårn">Hanois Tårn</a></li>
+<li><a href="#Algoritmeanalyse" title="Algoritmeanalyse">Algoritmeanalyse</a></li>
+<li class=""><a href="#En-tabellbasert-liste" title="En tabellbasert liste">En tabellbasert liste</a></li>
+<li class=""><a href="#En-Lenket-liste" title="En Lenket liste">En Lenket liste</a><ul class="nav">
+<li><a href="#Enkeltlenket-liste" title="Enkeltlenket liste">Enkeltlenket liste</a></li>
+<li class=""><a href="#Dobbeltlenket-liste" title="Dobbeltlenket liste">Dobbeltlenket liste</a></li>
+</ul>
+</li>
+<li><a href="#En-Stakk" title="En Stakk">En Stakk</a></li>
+<li class=""><a href="#En-Kø" title="En Kø">En Kø</a></li>
+<li><a href="#En-Toveiskø-deque" title="En Toveiskø (deque)">En Toveiskø (deque)</a></li>
+<li class=""><a href="#Huffmantrær" title="Huffmantrær">Huffmantrær</a></li>
+<li class=""><a href="#Hashing" title="Hashing">Hashing</a></li>
+<li class=""><a href="#Datastrukturer-for-grafer" title="Datastrukturer for grafer">Datastrukturer for grafer</a></li>
+<li class=""><a href="#Korteste-vei-i-en-labyrint" title="Korteste vei i en labyrint">Korteste vei i en labyrint</a></li>
+<li class=""><a href="#Korteste-vei-i-en-graf" title="Korteste vei i en graf">Korteste vei i en graf</a><ul class="nav">
+<li class=""><a href="#Dijkstras-metode" title="Dijkstras metode">Dijkstras metode</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
+
