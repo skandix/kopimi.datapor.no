@@ -1,5 +1,9 @@
 site_name: kopimi.datapor.no
 theme: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - navigation.tabs
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true
