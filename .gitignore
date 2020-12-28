@@ -2,6 +2,25 @@
 # Created by https://www.toptal.com/developers/gitignore/api/python,c,c++,csharp
 # Edit at https://www.toptal.com/developers/gitignore?templates=python,c,c++,csharp
 
+
+### MISC ###
+.idea
+
+
+### CMAKE ###
+
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Testing
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
 ### C ###
 # Prerequisites
 *.d
@@ -569,4 +588,3 @@ dmypy.json
 
 # End of https://www.toptal.com/developers/gitignore/api/python,c,c++,csharp
 
-.idea

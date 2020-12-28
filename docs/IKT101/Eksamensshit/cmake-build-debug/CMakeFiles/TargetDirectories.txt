@@ -1,3 +1,0 @@
-C:/Users/Paal/UiA/Ikt101/Eksamensshit/cmake-build-debug/CMakeFiles/Eksamensshit.dir
-C:/Users/Paal/UiA/Ikt101/Eksamensshit/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Paal/UiA/Ikt101/Eksamensshit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
