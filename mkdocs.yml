@@ -1,8 +1,9 @@
 site_name: kopimi.datapor.no
+extra_css:
+  - stylesheets/extra.css
 theme:
   name: material
-  extra_css:
-  - stylesheets/extra.css
+  font: false
   palette:
     # Toggle light mode
     - scheme: default
@@ -18,10 +19,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
+  font:
+    text: Roboto
+    code: Roboto Mono
   features:
     - navigation.sections
     - navigation.expand
     - navigation.instant
+    - header.autohide
 markdown_extensions:
   - pymdownx.highlight:
       linenums: true

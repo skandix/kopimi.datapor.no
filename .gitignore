@@ -5,7 +5,8 @@
 
 ### MISC ###
 .idea
-
+.cbp
+cmake-build-debug
 
 ### CMAKE ###
 
