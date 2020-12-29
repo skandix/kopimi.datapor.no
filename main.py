@@ -1,52 +1,75 @@
 #!/usr/bin/env python3
 import os
 from pathlib import Path
-forbidden_ = ["md", "html"]
-legal = ["pdf", "txt", "py"]
+from loguru import logger as log
+
+""" 
+In advance, this was made after not sleeping one nigth, this is kind of a
+structured mess, but mostly just a mess...
+
+Kind Regards 
+sleepless skandix
+"""
 
 
 class Kopimi:
     def __init__(self):
         self.path = Path("./docs/")
-        self.code_files = ['c', 'h' 'py']
-        self.text_files = ["pdf", "txt", "docx"]
+        self.code_files = [".py", ".c", ".h"]
+        self.markdown_code = {"py": "python", "c": "c", "h": "h"}
+        self.text_files = [".pdf", ".docx"]
 
         # mkdocs vital files
-        self.forbidden_files = ["index.md", "lists.md"]
-        self.forbibben_folders = ["stylesheets"]
-        
-    def tree(self, directory):
-        print(f'+ {directory}')
-        for path in sorted(directory.rglob('*')):
-            depth = len(path.relative_to(directory).parts)
-            spacer = '    ' * depth
-            print(f'{spacer}+ {path.name}')
+        self.forbidden_files = ["index.md", "lists.md", "CMakeLists.txt"]
+        self.forbidden_folders = ["stylesheets"]
+        self.joe_biden = "THIS IS A AMERICA"
 
+        self.filecollect_name = "Filer.md"
+        self.codecollect_name = "Kode.md"
 
     def list_files(self):
         for _file in self.path.iterdir():
-            #print (self.tree(x))
-            if _file.name not in self.forbidden_files and _file.name  not in self.forbibben_folders:
-                print("\n")
-                for k in (_file.rglob('*')):
-                    if k.is_file():
-                        print(k, k.suffix)
+            if (
+                _file.name not in self.forbidden_files
+                and _file.name not in self.forbidden_folders
+            ):
+                for path_obj in sorted(_file.rglob("**/*")):
+                    if path_obj.is_file() and path_obj.suffix in self.code_files:
+                        open(
+                            f"{path_obj.resolve().parent}/{self.codecollect_name}"
+                        ).write(f"# Kode \n")
+                        with open(
+                            f"{path_obj.resolve().parent}/{self.codecollect_name}", "a"
+                        ) as code:
+                            code.write(
+                                f"* {path_obj.name}\n```{self.markdown_code[path_obj.suffix.split('.')[-1]]}\n{open(path_obj).read()}\n```\n"
+                            )
+                            log.info(
+                                f"Writing Code to  {path_obj.resolve().parent}/{path_obj.name} -> {self.codecollect_name}"
+                            )
 
-    def write_to_md(self, fileType:str):
-        if fileType in self.text_files:
-            # generate_md_list()
-            ...
-        elif fileType in self.code_files:
-            # ta innholdet i .py eller .c og skriv til .md fil med sammenavn og legg koden mellom markdown codeblocks
-            ...
-  
-    def generate_md_list(self, path, folder:str):
+                    if path_obj.is_file() and path_obj.suffix in self.text_files:
+                        open(
+                            f"{path_obj.resolve().parent}/{self.filecollect_name}", "w"
+                        ).write(f"# Filer \n")
+                        with open(
+                            f"{path_obj.resolve().parent}/{self.filecollect_name}", "w"
+                        ) as files:
+                            files.write(f"* [{path_obj.name}]({path_obj.name})\n")
+                            log.info(
+                                f"Writing File to {path_obj.resolve().parent}/{path_obj.name} -> {self.filecollect_name}"
+                            )
+                        # print(path_obj.parent)
+                        # print(f"\t{path_obj}")
+
+    def generate_md_list(self, path, folder: str):
         for file in folder:
-            file_ext = file.split('.')[-1]
+            file_ext = file.split(".")[-1]
         ...
 
+
 k = Kopimi()
-print (k.list_files())
+print(k.list_files())
 
 """
 for dir_ in os.listdir(f"{_path}"):
