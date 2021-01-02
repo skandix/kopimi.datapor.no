@@ -10,6 +10,7 @@ def countfreq(my_list):
     for key, value in freq.items():
         print(key + " :", value)
 
+
 print("Please enter you word. type stop to exit.")
 user_input = input("")
 count = 0

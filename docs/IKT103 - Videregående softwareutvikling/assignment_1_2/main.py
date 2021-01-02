@@ -1,19 +1,21 @@
-
 def reverse(word):
     return word[::-1]
+
 
 def isPalindrom(word):
     rev = reverse(word)
 
-    if (word == rev):
+    if word == rev:
         return True
     return False
+
 
 def reverseword(word):
     inputWord = input.split(" ")
     inputWord = inputWord[-1::-1]
-    output = ' '.join(inputWord)
+    output = " ".join(inputWord)
     return output
+
 
 def main():
     word = input("Please write a word: \n")
@@ -21,13 +23,13 @@ def main():
 
     ans = isPalindrom(word)
     if ans == 1:
-        print("is a palindrome", end=' ')
+        print("is a palindrome", end=" ")
     else:
-        print("is not a palindrome", end=' ')
+        print("is not a palindrome", end=" ")
 
-    print('')
+    print("")
     print(reverse(word))
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()

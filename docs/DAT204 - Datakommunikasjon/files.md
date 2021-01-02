@@ -1,0 +1,7 @@
+* [DAT204-Kræsjkurs.pdf](DAT204-Kræsjkurs.pdf)
+* [DAT204_Cheatsheet.docx.pdf](DAT204_Cheatsheet.docx.pdf)
+* [networkFormulas.pdf](networkFormulas.pdf)
+* [DAT204-Kræsjkurs.pdf](DAT204-Kræsjkurs.pdf)
+# Code* [DAT204_Cheatsheet.docx.pdf](DAT204_Cheatsheet.docx.pdf)
+# Code* [networkFormulas.pdf](networkFormulas.pdf)
+# Code* [DAT204-Kræsjkurs.pdf](DAT204-Kræsjkurs.pdf)

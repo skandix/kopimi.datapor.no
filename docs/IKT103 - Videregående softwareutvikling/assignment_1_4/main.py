@@ -4,7 +4,8 @@ def letter_count(word):
     for i in word:
         count[i] = word.count(i)
     for j in count:
-        print("'" + j + "'" + ' : ' + str(count[j]))
+        print("'" + j + "'" + " : " + str(count[j]))
+
 
 def main():
 
@@ -12,5 +13,6 @@ def main():
     word = input("")
     print(letter_count(word))
 
-if __name__ == '__main__':
-        main()
+
+if __name__ == "__main__":
+    main()

@@ -1,0 +1,6 @@
+* [Fysobli2.pdf](Fysobli2.pdf)
+* [del4.pdf](del4.pdf)
+* [Fysobli1.pdf](Fysobli1.pdf)
+# Code* [Fysobli2.pdf](Fysobli2.pdf)
+# Code* [del4.pdf](del4.pdf)
+# Code* [Fysobli1.pdf](Fysobli1.pdf)

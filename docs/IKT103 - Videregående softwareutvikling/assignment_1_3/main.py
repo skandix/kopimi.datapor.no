@@ -1,4 +1,3 @@
-
 def main():
 
     print("Please enter 2 strings: ")
@@ -17,5 +16,6 @@ def main():
     else:
         print("is not a substring")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     main()
