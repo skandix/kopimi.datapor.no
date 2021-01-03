@@ -3,6 +3,8 @@
 
 *Two years later, in 2005, Ibrahim Botani, a figurehead in the Piratbyrån community, designed an "un-copyright logo" called "Kopimi" (pronounced "Copy Me"). The intent of the design was meant as a sort of advertisement for permission to re-use information or products and became the calling card brand of the Piratbyrån community. This design name would later prove to be the etymology for the "Missionary Church of Kopimism," and the philosophical ideology of Kopimism. Also in 2005, the domain name kopimi.com was formed by Piratbyrån.*
 
+[![yeet](https://clips-media-assets2.twitch.tv/AT-cm|990228967-preview-260x147.jpg)](https://clips.twitch.tv/IcyAmericanChoughCoolCat "yeet")
+
 #### creds to those who have contributed
 * captn
 * ISO
