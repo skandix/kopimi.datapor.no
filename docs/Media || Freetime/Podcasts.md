@@ -1,0 +1,21 @@
+# Podcasts
+
+- https://github.com/readme/podcast
+- https://darknetdiaries.com/
+- https://kubernetespodcast.com/
+- https://podcast.5h3ll.sh/
+- https://www.bbc.co.uk/programmes/m0012fjk
+- https://lexfridman.com/podcast/
+- https://www.technologyreview.com/supertopic/in-machines-we-trust/
+- https://hanselminutes.com/
+- https://isc.sans.edu/podcast.html
+- https://thecyberwire.com/podcasts/daily-podcast
+- https://malicious.life/
+- https://thecyberwire.com/podcasts/hacking-humans
+- https://www.gettingintoinfosec.com/
+- https://talkpython.fm/episodes/all
+- https://changelog.com/jsparty
+- https://changelog.com/practicalai
+- https://changelog.com/podcast
+- https://securitycryptographywhatever.buzzsprout.com/
+- https://risky.biz/
