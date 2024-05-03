@@ -1,0 +1,1989 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="mobile-web-app-capable" content="yes">
+    <title>
+        DAT217 - Sammendrag
+    </title>
+    <link rel="icon" type="image/png" href="https://hackmd.io/favicon.png">
+    <link rel="apple-touch-icon" href="https://hackmd.io/apple-touch-icon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" integrity="sha256-3iu9jgsy9TpTwXKb7bNQzqWekRX7pPK+2OLj3R922fo=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/octicons/3.5.0/octicons.min.css" integrity="sha256-QiWfLIsCT02Sdwkogf6YMiQlj4NE84MKkzEMkZnMGdg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.5.1/themes/prism.min.css" integrity="sha256-vtR0hSWRc3Tb26iuN2oZHt3KRUomwTufNIf5/4oeCyg=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/emojify.js/1.1.0/css/basic/emojify.min.css" integrity="sha256-UOrvMOsSDSrW6szVLe8ZDZezBxh5IoIfgTwdNDgTjiU=" crossorigin="anonymous" />
+    <style>
+        @charset "UTF-8";@import url(https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,500,500i|Source+Code+Pro:300,400,500|Source+Sans+Pro:300,300i,400,400i,600,600i|Source+Serif+Pro&subset=latin-ext);.hljs{display:block;background:#fff;padding:.5em;color:#333;overflow-x:auto}.hljs-comment,.hljs-meta{color:#969896}.hljs-emphasis,.hljs-quote,.hljs-string,.hljs-strong,.hljs-template-variable,.hljs-variable{color:#df5000}.hljs-keyword,.hljs-selector-tag,.hljs-type{color:#a71d5d}.hljs-attribute,.hljs-bullet,.hljs-literal,.hljs-number,.hljs-symbol{color:#0086b3}.hljs-built_in,.hljs-builtin-name{color:#005cc5}.hljs-name,.hljs-section{color:#63a35c}.hljs-tag{color:#333}.hljs-attr,.hljs-selector-attr,.hljs-selector-class,.hljs-selector-id,.hljs-selector-pseudo,.hljs-title{color:#795da3}.hljs-addition{color:#55a532;background-color:#eaffea}.hljs-deletion{color:#bd2c00;background-color:#ffecec}.hljs-link{text-decoration:underline}.markdown-body{font-size:16px;line-height:1.5;word-wrap:break-word}.markdown-body:after,.markdown-body:before{display:table;content:""}.markdown-body:after{clear:both}.markdown-body>:first-child{margin-top:0!important}.markdown-body>:last-child{margin-bottom:0!important}.markdown-body a:not([href]){color:inherit;text-decoration:none}.markdown-body .absent{color:#c00}.markdown-body .anchor{float:left;padding-right:4px;margin-left:-20px;line-height:1}.markdown-body .anchor:focus{outline:none}.markdown-body blockquote,.markdown-body dl,.markdown-body ol,.markdown-body p,.markdown-body pre,.markdown-body table,.markdown-body ul{margin-top:0;margin-bottom:16px}.markdown-body hr{height:.25em;padding:0;margin:24px 0;background-color:#e7e7e7;border:0}.markdown-body blockquote{font-size:16px;padding:0 1em;color:#777;border-left:.25em solid #ddd}.markdown-body blockquote>:first-child{margin-top:0}.markdown-body blockquote>:last-child{margin-bottom:0}.markdown-body kbd,.popover kbd{display:inline-block;padding:3px 5px;font-size:11px;line-height:10px;color:#555;vertical-align:middle;background-color:#fcfcfc;border:1px solid #ccc;border-bottom-color:#bbb;border-radius:3px;box-shadow:inset 0 -1px 0 #bbb}.markdown-body .loweralpha{list-style-type:lower-alpha}.markdown-body h1,.markdown-body h2,.markdown-body h3,.markdown-body h4,.markdown-body h5,.markdown-body h6{margin-top:24px;margin-bottom:16px;font-weight:600;line-height:1.25}.markdown-body h1 .octicon-link,.markdown-body h2 .octicon-link,.markdown-body h3 .octicon-link,.markdown-body h4 .octicon-link,.markdown-body h5 .octicon-link,.markdown-body h6 .octicon-link{color:#000;vertical-align:middle;visibility:hidden}.markdown-body h1:hover .anchor,.markdown-body h2:hover .anchor,.markdown-body h3:hover .anchor,.markdown-body h4:hover .anchor,.markdown-body h5:hover .anchor,.markdown-body h6:hover .anchor{text-decoration:none}.markdown-body h1:hover .anchor .octicon-link,.markdown-body h2:hover .anchor .octicon-link,.markdown-body h3:hover .anchor .octicon-link,.markdown-body h4:hover .anchor .octicon-link,.markdown-body h5:hover .anchor .octicon-link,.markdown-body h6:hover .anchor .octicon-link{visibility:visible}.markdown-body h1 code,.markdown-body h1 tt,.markdown-body h2 code,.markdown-body h2 tt,.markdown-body h3 code,.markdown-body h3 tt,.markdown-body h4 code,.markdown-body h4 tt,.markdown-body h5 code,.markdown-body h5 tt,.markdown-body h6 code,.markdown-body h6 tt{font-size:inherit}.markdown-body h1{font-size:2em}.markdown-body h1,.markdown-body h2{padding-bottom:.3em;border-bottom:1px solid #eee}.markdown-body h2{font-size:1.5em}.markdown-body h3{font-size:1.25em}.markdown-body h4{font-size:1em}.markdown-body h5{font-size:.875em}.markdown-body h6{font-size:.85em;color:#777}.markdown-body ol,.markdown-body ul{padding-left:2em}.markdown-body ol.no-list,.markdown-body ul.no-list{padding:0;list-style-type:none}.markdown-body ol ol,.markdown-body ol ul,.markdown-body ul ol,.markdown-body ul ul{margin-top:0;margin-bottom:0}.markdown-body li>p{margin-top:16px}.markdown-body li+li{margin-top:.25em}.markdown-body dl{padding:0}.markdown-body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}.markdown-body dl dd{padding:0 16px;margin-bottom:16px}.markdown-body table{display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}.markdown-body table th{font-weight:700}.markdown-body table td,.markdown-body table th{padding:6px 13px;border:1px solid #ddd}.markdown-body table tr{background-color:#fff;border-top:1px solid #ccc}.markdown-body table tr:nth-child(2n){background-color:#f8f8f8}.markdown-body img{max-width:100%;box-sizing:content-box;background-color:#fff}.markdown-body img[align=right]{padding-left:20px}.markdown-body img[align=left]{padding-right:20px}.markdown-body .emoji{max-width:none;vertical-align:text-top;background-color:transparent}.markdown-body span.frame{display:block;overflow:hidden}.markdown-body span.frame>span{display:block;float:left;width:auto;padding:7px;margin:13px 0 0;overflow:hidden;border:1px solid #ddd}.markdown-body span.frame span img{display:block;float:left}.markdown-body span.frame span span{display:block;padding:5px 0 0;clear:both;color:#333}.markdown-body span.align-center{display:block;overflow:hidden;clear:both}.markdown-body span.align-center>span{display:block;margin:13px auto 0;overflow:hidden;text-align:center}.markdown-body span.align-center span img{margin:0 auto;text-align:center}.markdown-body span.align-right{display:block;overflow:hidden;clear:both}.markdown-body span.align-right>span{display:block;margin:13px 0 0;overflow:hidden;text-align:right}.markdown-body span.align-right span img{margin:0;text-align:right}.markdown-body span.float-left{display:block;float:left;margin-right:13px;overflow:hidden}.markdown-body span.float-left span{margin:13px 0 0}.markdown-body span.float-right{display:block;float:right;margin-left:13px;overflow:hidden}.markdown-body span.float-right>span{display:block;margin:13px auto 0;overflow:hidden;text-align:right}.markdown-body code,.markdown-body tt{padding:0;padding-top:.2em;padding-bottom:.2em;margin:0;font-size:85%;background-color:rgba(0,0,0,.04);border-radius:3px}.markdown-body code:after,.markdown-body code:before,.markdown-body tt:after,.markdown-body tt:before{letter-spacing:-.2em;content:"\00a0"}.markdown-body code br,.markdown-body tt br{display:none}.markdown-body del code{text-decoration:inherit}.markdown-body pre{word-wrap:normal}.markdown-body pre>code{padding:0;margin:0;font-size:100%;word-break:normal;white-space:pre;background:transparent;border:0}.markdown-body .highlight{margin-bottom:16px}.markdown-body .highlight pre{margin-bottom:0;word-break:normal}.markdown-body .highlight pre,.markdown-body pre{padding:16px;overflow:auto;font-size:85%;line-height:1.45;background-color:#f7f7f7;border-radius:3px}.markdown-body pre code,.markdown-body pre tt{display:inline;max-width:auto;padding:0;margin:0;overflow:visible;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}.markdown-body pre code:after,.markdown-body pre code:before,.markdown-body pre tt:after,.markdown-body pre tt:before{content:normal}.markdown-body .csv-data td,.markdown-body .csv-data th{padding:5px;overflow:hidden;font-size:12px;line-height:1;text-align:left;white-space:nowrap}.markdown-body .csv-data .blob-line-num{padding:10px 8px 9px;text-align:right;background:#fff;border:0}.markdown-body .csv-data tr{border-top:0}.markdown-body .csv-data th{font-weight:700;background:#f8f8f8;border-top:0}.news .alert .markdown-body blockquote{padding:0 0 0 40px;border:0 none}.activity-tab .news .alert .commits,.activity-tab .news .markdown-body blockquote{padding-left:0}.task-list-item{list-style-type:none}.task-list-item label{font-weight:400}.task-list-item.enabled label{cursor:pointer}.task-list-item+.task-list-item{margin-top:3px}.task-list-item-checkbox{float:left;margin:.31em 0 .2em -1.3em!important;vertical-align:middle;cursor:default!important}.markdown-body{padding-top:40px;padding-bottom:40px;max-width:758px;overflow:visible!important}.markdown-body .emoji{vertical-align:top}.markdown-body pre{border:inherit!important}.markdown-body code{color:inherit!important}.markdown-body pre code .wrapper{display:-moz-inline-flex;display:-ms-inline-flex;display:-o-inline-flex;display:inline-flex}.markdown-body pre code .gutter{float:left;overflow:hidden;-webkit-user-select:none;user-select:none}.markdown-body pre code .gutter.linenumber{text-align:right;position:relative;display:inline-block;cursor:default;z-index:4;padding:0 8px 0 0;min-width:20px;box-sizing:content-box;color:#afafaf!important;border-right:3px solid #6ce26c!important}.markdown-body pre code .gutter.linenumber>span:before{content:attr(data-linenumber)}.markdown-body pre code .code{float:left;margin:0 0 0 16px}.markdown-body .gist .line-numbers{border-left:none;border-top:none;border-bottom:none}.markdown-body .gist .line-data{border:none}.markdown-body .gist table{border-spacing:0;border-collapse:inherit!important}.markdown-body code[data-gist-id]{background:none;padding:0}.markdown-body code[data-gist-id]:after,.markdown-body code[data-gist-id]:before{content:""}.markdown-body code[data-gist-id] .blob-num{border:unset}.markdown-body code[data-gist-id] table{overflow:unset;margin-bottom:unset}.markdown-body code[data-gist-id] table tr{background:unset}.markdown-body[dir=rtl] pre{direction:ltr}.markdown-body[dir=rtl] code{direction:ltr;unicode-bidi:embed}.markdown-body .alert>p{margin-bottom:0}.markdown-body pre.abc,.markdown-body pre.flow-chart,.markdown-body pre.graphviz,.markdown-body pre.mermaid,.markdown-body pre.sequence-diagram{text-align:center;background-color:inherit;border-radius:0;white-space:inherit}.markdown-body pre.abc>code,.markdown-body pre.flow-chart>code,.markdown-body pre.graphviz>code,.markdown-body pre.mermaid>code,.markdown-body pre.sequence-diagram>code{text-align:left}.markdown-body pre.abc>svg,.markdown-body pre.flow-chart>svg,.markdown-body pre.graphviz>svg,.markdown-body pre.mermaid>svg,.markdown-body pre.sequence-diagram>svg{max-width:100%;height:100%}.markdown-body pre>code.wrap{white-space:pre-wrap;white-space:-moz-pre-wrap;white-space:-pre-wrap;white-space:-o-pre-wrap;word-wrap:break-word}.markdown-body .alert>p,.markdown-body .alert>ul{margin-bottom:0}.markdown-body summary{display:list-item}.markdown-body summary:focus{outline:none}.markdown-body details summary{cursor:pointer}.markdown-body details:not([open])>:not(summary){display:none}.markdown-body figure{margin:1em 40px}.markdown-body .mark,.markdown-body mark{background-color:#fff1a7}.vimeo,.youtube{cursor:pointer;display:table;text-align:center;background-position:50%;background-repeat:no-repeat;background-size:contain;background-color:#000;overflow:hidden}.vimeo,.youtube{position:relative;width:100%}.youtube{padding-bottom:56.25%}.vimeo img{width:100%;object-fit:contain;z-index:0}.youtube img{object-fit:cover;z-index:0}.vimeo iframe,.youtube iframe,.youtube img{width:100%;height:100%;position:absolute;top:0;left:0}.vimeo iframe,.youtube iframe{vertical-align:middle;z-index:1}.vimeo .icon,.youtube .icon{position:absolute;height:auto;width:auto;top:50%;left:50%;transform:translate(-50%,-50%);color:#fff;opacity:.3;transition:opacity .2s;z-index:0}.vimeo:hover .icon,.youtube:hover .icon{opacity:.6;transition:opacity .2s}.slideshare .inner,.speakerdeck .inner{position:relative;width:100%}.slideshare .inner iframe,.speakerdeck .inner iframe{position:absolute;top:0;bottom:0;left:0;right:0;width:100%;height:100%}.MJX_Assistive_MathML{display:none}.ui-infobar{position:relative;z-index:2;max-width:760px;margin:25px auto -25px;padding:0 15px;color:#777}.toc .invisable-node{list-style-type:none}.ui-toc{position:fixed;bottom:20px;z-index:998}.ui-toc-label{opacity:.3;background-color:#ccc;border:none;transition:opacity .2s}.ui-toc .open .ui-toc-label{opacity:1;color:#fff;transition:opacity .2s}.ui-toc-label:focus{opacity:.3;background-color:#ccc;color:#000}.ui-toc-label:hover{opacity:1;background-color:#ccc;transition:opacity .2s}.ui-toc-dropdown{margin-top:23px;margin-bottom:20px;padding-left:10px;padding-right:10px;max-width:45vw;width:25vw;max-height:70vh;overflow:auto;text-align:inherit}.ui-toc-dropdown>.toc{max-height:calc(70vh - 100px);overflow:auto}.ui-toc-dropdown[dir=rtl] .nav{padding-right:0;letter-spacing:.0029em}.ui-toc-dropdown a{overflow:hidden;text-overflow:ellipsis;white-space:pre}.ui-toc-dropdown .nav>li>a{display:block;padding:4px 20px;font-size:13px;font-weight:500;color:#767676}.ui-toc-dropdown .nav>li:first-child:last-child > ul,.ui-toc-dropdown .toc.expand ul{display:block}.ui-toc-dropdown .nav>li>a:focus,.ui-toc-dropdown .nav>li>a:hover{padding-left:19px;color:#000;text-decoration:none;background-color:transparent;border-left:1px solid #000}.ui-toc-dropdown[dir=rtl] .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav>li>a:hover{padding-right:19px;border-left:none;border-right:1px solid #000}.ui-toc-dropdown .nav>.active:focus>a,.ui-toc-dropdown .nav>.active:hover>a,.ui-toc-dropdown .nav>.active>a{padding-left:18px;font-weight:700;color:#000;background-color:transparent;border-left:2px solid #000}.ui-toc-dropdown[dir=rtl] .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav>.active>a{padding-right:18px;border-left:none;border-right:2px solid #000}.ui-toc-dropdown .nav .nav{display:none;padding-bottom:10px}.ui-toc-dropdown .nav>.active>ul{display:block}.ui-toc-dropdown .nav .nav>li>a{padding-top:1px;padding-bottom:1px;padding-left:30px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a{padding-right:30px}.ui-toc-dropdown .nav .nav>li>ul>li>a{padding-top:1px;padding-bottom:1px;padding-left:40px;font-size:12px;font-weight:400}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a{padding-right:40px}.ui-toc-dropdown .nav .nav>li>a:focus,.ui-toc-dropdown .nav .nav>li>a:hover{padding-left:29px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>a:hover{padding-right:29px}.ui-toc-dropdown .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown .nav .nav>li>ul>li>a:hover{padding-left:39px}.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:focus,.ui-toc-dropdown[dir=rtl] .nav .nav>li>ul>li>a:hover{padding-right:39px}.ui-toc-dropdown .nav .nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>a{padding-left:28px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>a{padding-right:28px}.ui-toc-dropdown .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown .nav .nav>.active>.nav>.active>a{padding-left:38px;font-weight:500}.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:focus>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active:hover>a,.ui-toc-dropdown[dir=rtl] .nav .nav>.active>.nav>.active>a{padding-right:38px}.markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif}html[lang^=ja] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] .markdown-body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html .markdown-body[lang^=ja]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html .markdown-body[lang=zh-tw]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html .markdown-body[lang=zh-cn]{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica Neue,Helvetica,Roboto,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}html[lang^=ja] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html[lang=zh-tw] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html[lang=zh-cn] .ui-toc-dropdown{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}html .ui-toc-dropdown[lang^=ja]{font-family:Source Sans Pro,Helvetica,Arial,Meiryo UI,MS PGothic,ＭＳ\ Ｐゴシック,sans-serif}html .ui-toc-dropdown[lang=zh-tw]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft JhengHei UI,微軟正黑UI,sans-serif}html .ui-toc-dropdown[lang=zh-cn]{font-family:Source Sans Pro,Helvetica,Arial,Microsoft YaHei UI,微软雅黑UI,sans-serif}.ui-affix-toc{position:fixed;top:0;max-width:15vw;max-height:70vh;overflow:auto}.back-to-top,.expand-toggle,.go-to-bottom{display:block;padding:4px 10px;margin-top:10px;margin-left:10px;font-size:12px;font-weight:500;color:#999}.back-to-top:focus,.back-to-top:hover,.expand-toggle:focus,.expand-toggle:hover,.go-to-bottom:focus,.go-to-bottom:hover{color:#563d7c;text-decoration:none}.back-to-top,.go-to-bottom{margin-top:0}.ui-user-icon{width:20px;height:20px;display:block;border-radius:3px;margin-top:2px;margin-bottom:2px;margin-right:5px;background-position:50%;background-repeat:no-repeat;background-size:cover}.ui-user-icon.small{width:18px;height:18px;display:inline-block;vertical-align:middle;margin:0 0 .2em}.ui-infobar>small>span{line-height:22px}.ui-infobar>small .dropdown{display:inline-block}.ui-infobar>small .dropdown a:focus,.ui-infobar>small .dropdown a:hover{text-decoration:none}.ui-published-note{color:#337ab7}.ui-published-note .fa{font-size:20px;vertical-align:top}.unselectable{-webkit-user-select:none;-o-user-select:none;user-select:none}@media print{blockquote,div,img,pre,table{page-break-inside:avoid!important}a[href]:after{font-size:12px!important}}.markdown-body.slides{position:relative;z-index:1;color:#222}.markdown-body.slides:before{content:"";display:block;position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1;background-color:currentColor;box-shadow:0 0 0 50vw}.markdown-body.slides section[data-markdown]{position:relative;margin-bottom:1.5em;background-color:#fff;text-align:center}.markdown-body.slides section[data-markdown] code{text-align:left}.markdown-body.slides section[data-markdown]:before{content:"";display:block;padding-bottom:56.23%}.markdown-body.slides section[data-markdown]>div:first-child{position:absolute;top:50%;left:1em;right:1em;transform:translateY(-50%);max-height:100%;overflow:hidden}.markdown-body.slides section[data-markdown]>ul{display:inline-block}.markdown-body.slides>section>section+section:after{content:"";position:absolute;top:-1.5em;right:1em;height:1.5em;border:3px solid #777}body{font-smoothing:subpixel-antialiased!important;-webkit-font-smoothing:subpixel-antialiased!important;-moz-osx-font-smoothing:auto!important;text-shadow:0 0 1em transparent,1px 1px 1.2px rgba(0,0,0,.004);-webkit-overflow-scrolling:touch;letter-spacing:.025em}.focus,:focus{outline:none!important}::-moz-focus-inner{border:0!important}body{font-family:Source Sans Pro,Helvetica,Arial,sans-serif}html[lang^=ja] body{font-family:Source Sans Pro,Helvetica,Arial,Hiragino Kaku Gothic Pro,ヒラギノ角ゴ Pro W3,Osaka,Meiryo,メイリオ,MS Gothic,ＭＳ\ ゴシック,sans-serif}html[lang=zh-tw] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang TC,Microsoft JhengHei,微軟正黑,sans-serif}html[lang=zh-cn] body{font-family:Source Sans Pro,Helvetica,Arial,PingFang SC,Microsoft YaHei,微软雅黑,sans-serif}abbr[title]{border-bottom:none;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}abbr[data-original-title],abbr[title]{cursor:help}body.modal-open{overflow-y:auto;padding-right:0!important}
+    </style>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha256-3Jy/GbSLrg0o9y5Z5n1uw0qxZECH7C6OQpVBgNFYa0g=" crossorigin="anonymous"></script>
+    	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js" integrity="sha256-g6iAfvZp+nDQ2TdTR/VVKJf3bGro4ub5fvWSWVRi2NE=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es5-shim/4.5.9/es5-shim.min.js" integrity="sha256-8E4Is26QH0bD52WoQpcB+R/tcWQtpzlCojrybUd7Mxo=" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <div id="doc" class="markdown-body container-fluid comment-enabled" data-hard-breaks="true"><h1 id="DAT217---Sammendrag"><a class="anchor hidden-xs" href="#DAT217---Sammendrag" title="DAT217---Sammendrag"><span class="octicon octicon-link"></span></a>DAT217 - Sammendrag</h1><h2 id="01---Driftfilosofi"><a class="anchor hidden-xs" href="#01---Driftfilosofi" title="01---Driftfilosofi"><span class="octicon octicon-link"></span></a>01 - Driftfilosofi</h2><ul>
+<li>Driftfilosofi</li>
+<li>Nettverksprotokoller</li>
+<li>SNMP</li>
+</ul><h3 id="Reactive-Management-Brannslukking"><a class="anchor hidden-xs" href="#Reactive-Management-Brannslukking" title="Reactive-Management-Brannslukking"><span class="octicon octicon-link"></span></a>Reactive Management (Brannslukking)</h3><ul>
+<li>Nettverket er nede!</li>
+<li>Feil må rettes fort!</li>
+<li>Det koster å ha nedetid!</li>
+<li>Klassifisering av feil:
+<ul>
+<li>Brukerfeil</li>
+<li>Programvarefeil</li>
+<li>Maskinvarefeil</li>
+<li>Kablingsfeil</li>
+</ul>
+</li>
+</ul><h3 id="Proactive-Management-Forebyggende-Drift"><a class="anchor hidden-xs" href="#Proactive-Management-Forebyggende-Drift" title="Proactive-Management-Forebyggende-Drift"><span class="octicon octicon-link"></span></a>Proactive Management (Forebyggende Drift)</h3><ul>
+<li>Rett feil før den inntreffet
+<ul>
+<li>Utopi - driftsfilosofi, ikke driftsmetode</li>
+</ul>
+</li>
+<li>Kapasitetsplanlegging
+<ul>
+<li><strong>forutse</strong> og <strong>planlegge</strong>, for endringer som påvirker nettets ytelse.</li>
+</ul>
+</li>
+<li>system-tuning
+<ul>
+<li>måle nettverksparametre</li>
+<li>Analyse</li>
+<li>Presentere/Alarmere</li>
+</ul>
+</li>
+</ul><h3 id="Drift-av-nettverk"><a class="anchor hidden-xs" href="#Drift-av-nettverk" title="Drift-av-nettverk"><span class="octicon octicon-link"></span></a>Drift av nettverk</h3><ul>
+<li>Feilhåndtering</li>
+<li>Brukhåndtering (brukerkonti)</li>
+<li>Konfigurasjonshåndtering</li>
+<li>Ytelsehåndtering</li>
+<li>Sikkerhetshåndtering</li>
+</ul><h3 id="Feilhåndtering"><a class="anchor hidden-xs" href="#Feilhåndtering" title="Feilhåndtering"><span class="octicon octicon-link"></span></a>Feilhåndtering</h3><ul>
+<li>Oppdage feil</li>
+<li>Logge feil</li>
+<li>Varsle om feil</li>
+<li>Gangen i arbeidet:
+<ol>
+<li>Oppdage symptomer</li>
+<li>Isolere problem</li>
+<li>fikse problem</li>
+<li>prøve ut løsning</li>
+<li>Arkivere symptomer =&gt; løsning</li>
+</ol>
+</li>
+</ul><h3 id="Brukshåndtering"><a class="anchor hidden-xs" href="#Brukshåndtering" title="Brukshåndtering"><span class="octicon octicon-link"></span></a>Brukshåndtering</h3><ul>
+<li>Må registrere bruk av ressurser
+<ul>
+<li>Grunnlag for fordeling av ressurser</li>
+<li>Kvotefastsettelse</li>
+<li>Prioritering</li>
+</ul>
+</li>
+<li>Bruksmønstre</li>
+<li>Kostnadsfordeling</li>
+</ul><h3 id="Konfigurasjonshåndtering"><a class="anchor hidden-xs" href="#Konfigurasjonshåndtering" title="Konfigurasjonshåndtering"><span class="octicon octicon-link"></span></a>Konfigurasjonshåndtering</h3><ul>
+<li>Database over alle konfigurasjoner og ENDRINGER av disse
+<ul>
+<li>Danner grunnlag for å se om konfigurasjoner er grunn til problemer
+<ul>
+<li>Operativsystem</li>
+<li>Drivere</li>
+<li>Programvare</li>
+<li>Oppdateringer osv.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Ytelsehåndtering"><a class="anchor hidden-xs" href="#Ytelsehåndtering" title="Ytelsehåndtering"><span class="octicon octicon-link"></span></a>Ytelsehåndtering</h3><ul>
+<li>Måle parametre som påvirker ytelse
+<ul>
+<li>Throughput</li>
+<li>Responstid</li>
+<li>Linjebruk</li>
+</ul>
+</li>
+<li>Måle ytelsedata</li>
+<li>Analysere ytelsedata</li>
+<li>Fastsette ytelseterskler</li>
+<li>Proaktiv analysere for når terskler nåes</li>
+</ul><p>MRTG (Multi Router Traffic Grapher)<br>
+&nbsp;&nbsp;&nbsp;&nbsp;Måler trafikk belastning</p><h3 id="Sikkerhetshåndtering"><a class="anchor hidden-xs" href="#Sikkerhetshåndtering" title="Sikkerhetshåndtering"><span class="octicon octicon-link"></span></a>Sikkerhetshåndtering</h3><ul>
+<li>Kontrollere riktig tilgang til ressurser
+<ul>
+<li>hindre sabotasje</li>
+<li>hindre sensetive data kommer på avveie</li>
+</ul>
+</li>
+<li>Identifisere sårbare punkt og ressurser</li>
+<li>Metoder
+<ul>
+<li>Overvåke pålogging og bruk</li>
+<li>Nekte tilgang til noen ressurser for noen</li>
+<li>Oppdeling av nettverket, redudans</li>
+<li>Logge bruk og misbruk</li>
+</ul>
+</li>
+</ul><h3 id="IT-Operation-analytics"><a class="anchor hidden-xs" href="#IT-Operation-analytics" title="IT-Operation-analytics"><span class="octicon octicon-link"></span></a>IT Operation analytics</h3><ul>
+<li>System for å samle inn, analysere og varsle om driftsforhold</li>
+<li>Kan være log-basert
+<ul>
+<li>ELK (Elastic, Logstash, Kibana), Splunk</li>
+</ul>
+</li>
+<li>Kan være agentbaset
+<ul>
+<li>Nagios, HP Operation Analystics</li>
+</ul>
+</li>
+<li>Kan være integrert i program
+<ul>
+<li>Appdynamics</li>
+</ul>
+</li>
+</ul><h1 id="02---Subnetting"><a class="anchor hidden-xs" href="#02---Subnetting" title="02---Subnetting"><span class="octicon octicon-link"></span></a>02 - Subnetting</h1><ul>
+<li>Subnettmasker</li>
+<li>IP</li>
+<li>DHCP</li>
+</ul><h3 id="Subnetting"><a class="anchor hidden-xs" href="#Subnetting" title="Subnetting"><span class="octicon octicon-link"></span></a>Subnetting</h3><ul>
+<li>IP nummer (v4, RFC 791)</li>
+<li>Formen er 32 bit, skrevet slik 255.0.255.0</li>
+<li>Binært: <strong>11111111.00000000.11111111.00000000</strong>
+<ul>
+<li>Gir mulige adresser 256^4 = 4 294 967 296</li>
+</ul>
+</li>
+<li>Både nettverksadresse og maskin har adresse i samme format
+<ul>
+<li>A nett
+<ul>
+<li>Adresser som starter med 0 (0-127).0.0.0</li>
+<li>første 8bit nettverks adresse <strong>128 Stk</strong></li>
+<li>resterende 24 til hostid <strong>16777216 Stk</strong></li>
+</ul>
+</li>
+<li>B nett
+<ul>
+<li>Adresser som starter med 10(128-191).0.0.0</li>
+<li>16 bit til nettverksadresse <strong>65536 Stk</strong></li>
+<li>16 til hostid <strong>65536 Stk</strong></li>
+</ul>
+</li>
+<li>C nett
+<ul>
+<li>Adresser som starter med 110 (192-223).0.0.0</li>
+<li>24 bit til nettverksadresse <strong>16777216 Stk</strong></li>
+<li>8 bit til hostid <strong>128 Stk</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><blockquote>
+<p>Den første adressen er nettverksadressen<br>
+Den siste er broadcast - kan nå alle på en gang</p>
+</blockquote><h3 id="Subnett-maske"><a class="anchor hidden-xs" href="#Subnett-maske" title="Subnett-maske"><span class="octicon octicon-link"></span></a>Subnett maske</h3><pre><code>        f.eks 255.255.255.0
+       = 11111111.11111111.11111111.000000000 
+         \.............  ........./\...  .../
+                       \/              \/
+            Nettverks adresser,    Brukes i lokal,
+            utenfor lokale         adressering
+            adresser sendes til     
+            ruteren (gateway)      Blir ett logisk
+                                   segment
+                                   i nettverket
+</code></pre><h3 id="Subnet-kalkulator"><a class="anchor hidden-xs" href="#Subnet-kalkulator" title="Subnet-kalkulator"><span class="octicon octicon-link"></span></a>Subnet kalkulator</h3><p>I oppgave hvor du skal dele inn en oppgitt addresse range(CIDR) i x subnet, sjekk tabellen for oppgitt CIDR, del antall networks i den CIDR’en med x subnet, dette gir y network. Sjekk tabellen for y network, dette er din nye range(CIDR).</p><table>
+<thead>
+<tr>
+<th>CIDR</th>
+<th>mask</th>
+<th>bits</th>
+<th>network</th>
+<th>hosts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>255.255.255.<strong>255</strong></td>
+<td>0</td>
+<td>1</td>
+<td>-</td>
+</tr>
+<tr>
+<td></td>
+<td>255.255.255.<strong>254</strong></td>
+<td>1</td>
+<td>2</td>
+<td>-</td>
+</tr>
+<tr>
+<td>/30</td>
+<td>255.255.255.252</td>
+<td>2</td>
+<td>4</td>
+<td>2</td>
+</tr>
+<tr>
+<td>/29</td>
+<td>255.255.255.248</td>
+<td>3</td>
+<td>8</td>
+<td>6</td>
+</tr>
+<tr>
+<td>/28</td>
+<td>255.255.255.240</td>
+<td>4</td>
+<td>16</td>
+<td>14</td>
+</tr>
+<tr>
+<td>/27</td>
+<td>255.255.255.224</td>
+<td>5</td>
+<td>32</td>
+<td>30</td>
+</tr>
+<tr>
+<td>/26</td>
+<td>255.255.255.192</td>
+<td>6</td>
+<td>64</td>
+<td>62</td>
+</tr>
+<tr>
+<td>/25</td>
+<td>255.255.255.128</td>
+<td>7</td>
+<td>128</td>
+<td>126</td>
+</tr>
+<tr>
+<td><strong>/24</strong></td>
+<td>255.255.<strong>255.0</strong></td>
+<td>8</td>
+<td>256</td>
+<td>254</td>
+</tr>
+<tr>
+<td><strong>/23</strong></td>
+<td>255.255.<strong>254.0</strong></td>
+<td>9</td>
+<td>512</td>
+<td>510</td>
+</tr>
+<tr>
+<td><strong>/22</strong></td>
+<td>255.255.<strong>252.0</strong></td>
+<td>10</td>
+<td>1024</td>
+<td>1022</td>
+</tr>
+<tr>
+<td><strong>/21</strong></td>
+<td>255.255.<strong>248.0</strong></td>
+<td>11</td>
+<td>2048</td>
+<td>2046</td>
+</tr>
+<tr>
+<td><strong>/20</strong></td>
+<td>255.255.<strong>240.0</strong></td>
+<td>12</td>
+<td>4096</td>
+<td>4094</td>
+</tr>
+</tbody>
+</table><p>Eksempel på utregning<br>
+<img src="https://i.imgur.com/A4nhhZe.jpg" alt=""></p><h3 id="DHCP"><a class="anchor hidden-xs" href="#DHCP" title="DHCP"><span class="octicon octicon-link"></span></a>DHCP</h3><ul>
+<li>DHCP laget av IETF (Internet Engineering Task Force) 1993, som erstatter BOOTP protocol</li>
+<li>Automatisk tildeling av IP nummer, nettverksmaske og andre IP parametre</li>
+<li>Kan tildele permanent eller for tidsbestemte perioder</li>
+<li>Porter
+<ul>
+<li>Klient Sender til UDP port 67 fra UDP 68</li>
+<li>Tjener svarer til UDP port 68 fra UDP 67</li>
+<li><strong>server - UDP 68</strong></li>
+<li><strong>klient - UDP 67</strong></li>
+</ul>
+</li>
+</ul><h1 id="03---IPv6"><a class="anchor hidden-xs" href="#03---IPv6" title="03---IPv6"><span class="octicon octicon-link"></span></a>03 - IPv6</h1><p>Ipv6 adresse er 128 bit!</p><h1 id="04---Backup-Service"><a class="anchor hidden-xs" href="#04---Backup-Service" title="04---Backup-Service"><span class="octicon octicon-link"></span></a>04 - Backup Service</h1><h3 id="Sikkerhetskopiering---Backup"><a class="anchor hidden-xs" href="#Sikkerhetskopiering---Backup" title="Sikkerhetskopiering---Backup"><span class="octicon octicon-link"></span></a>Sikkerhetskopiering - Backup</h3><ul>
+<li>Hvorfor?
+<ul>
+<li>Disker kræsjer før eller sidene
+<ul>
+<li>hva koster det?</li>
+<li>Konsekvensanalyse</li>
+</ul>
+</li>
+<li>Brukere er uheldige - de sletter data</li>
+<li>Virus og annen “ondsinnet kode” ødelegger data og maskiner</li>
+</ul>
+</li>
+<li>Konsekvensene
+<ul>
+<li>Tapt arbeidstid</li>
+<li>Tapt informasjon</li>
+<li>Tapt “goodwill” hos kunder</li>
+<li>Konkurs</li>
+</ul>
+</li>
+</ul><h3 id="Backup-system"><a class="anchor hidden-xs" href="#Backup-system" title="Backup-system"><span class="octicon octicon-link"></span></a>Backup system</h3><ul>
+<li>Grandfather, father son syste,
+<ul>
+<li>Tar backup hver dag =&gt; son</li>
+<li>Tar en daglig ut hver uke =&gt; father</li>
+<li>Tar en ukentlig ut hver måned =&gt; grandfather</li>
+<li>Krever relativt mange tape (bør kanskje ha med oldefar også)</li>
+</ul>
+</li>
+<li>Hanoi tårn algoritmen
+<ul>
+<li>Forskjellig rotering</li>
+</ul>
+</li>
+</ul><h3 id="ROS"><a class="anchor hidden-xs" href="#ROS" title="ROS"><span class="octicon octicon-link"></span></a>ROS</h3><ul>
+<li>Risiko og Sikkerhets Analyse
+<ul>
+<li>Identifisere verdier</li>
+<li>Fastsettelse av uønskede hendelser</li>
+<li>vurdering av konsekvenser</li>
+<li>Vurdere risiko</li>
+<li>utarbeide tiltak</li>
+</ul>
+</li>
+</ul><h1 id="05---Virtualisering"><a class="anchor hidden-xs" href="#05---Virtualisering" title="05---Virtualisering"><span class="octicon octicon-link"></span></a>05 - Virtualisering</h1><h3 id="Begrepet"><a class="anchor hidden-xs" href="#Begrepet" title="Begrepet"><span class="octicon octicon-link"></span></a>Begrepet</h3><ul>
+<li>Virtualisering oppstp på 60-tallets stormaskiner
+<ul>
+<li>Var nødvendig for at flere skulle kunne bruke maskin samtidig</li>
+</ul>
+</li>
+</ul><h3 id="Grunner-til-virtualisering"><a class="anchor hidden-xs" href="#Grunner-til-virtualisering" title="Grunner-til-virtualisering"><span class="octicon octicon-link"></span></a>Grunner til virtualisering</h3><ul>
+<li>bedre utnyttelse av kapasitet på tjenere
+<ul>
+<li>flere operativsystem og tjenester på samme maskin</li>
+<li>Fordeling av belasting på flere maskiner (i en)</li>
+<li>Enklere sikkerhetskopiering</li>
+<li>Enklere migrasjon</li>
+</ul>
+</li>
+<li>Kan bruke utdatert operativsystem for noen program</li>
+<li>Kan isolere maskiner (en eller flere i et nett);
+<ul>
+<li>sandkasser</li>
+</ul>
+</li>
+<li>Kan eliminere problemer med HW</li>
+</ul><h3 id="Eksempler-på-virtualisering"><a class="anchor hidden-xs" href="#Eksempler-på-virtualisering" title="Eksempler-på-virtualisering"><span class="octicon octicon-link"></span></a>Eksempler på virtualisering</h3><ul>
+<li>Wine - Wine is Not an Emulator
+<ul>
+<li>Til å kjøre enkeltprogram (Typisk windows på linux)</li>
+</ul>
+</li>
+<li>PVM - Parallel Virtual Machine
+<ul>
+<li>Samler mange maskiner til en (virtuell) stor</li>
+</ul>
+</li>
+<li>Java &amp; .NET
+<ul>
+<li>JVM er en abstrakt maskin definert med registere,</li>
+</ul>
+</li>
+</ul><h3 id="Cloud-computing"><a class="anchor hidden-xs" href="#Cloud-computing" title="Cloud-computing"><span class="octicon octicon-link"></span></a>Cloud computing</h3><ul>
+<li>det er mange som tilbyr ‘maskiner til leie’
+<ul>
+<li>Det betyr at man setter opp sin egen tjener og styrer den fullt ut selv (oftest virtuell maskin)</li>
+</ul>
+</li>
+</ul><h3 id="VMM---Virtual-machine-Monitor-–-Hypervisor"><a class="anchor hidden-xs" href="#VMM---Virtual-machine-Monitor-–-Hypervisor" title="VMM---Virtual-machine-Monitor-–-Hypervisor"><span class="octicon octicon-link"></span></a>VMM - Virtual machine Monitor – Hypervisor</h3><ul>
+<li>kan være koblet rett til hardware som OS
+<ul>
+<li>IBM’s z/VM</li>
+<li>XEN(Citrix)</li>
+<li>VMWs vSphere (esxi)</li>
+</ul>
+</li>
+<li>Kan kjøres som et vanlig program under vertsmaskinen OS
+<ul>
+<li>VMWs workstation</li>
+<li>Virtualbox</li>
+</ul>
+</li>
+</ul><h3 id="Binary-translation"><a class="anchor hidden-xs" href="#Binary-translation" title="Binary-translation"><span class="octicon octicon-link"></span></a>Binary translation</h3><ul>
+<li>kan la upriviligert kommandoer gå direkte</li>
+<li>Emulerer priviligert intstruksjoner
+<ul>
+<li>oversetter den binære koden direkte</li>
+</ul>
+</li>
+</ul><h3 id="Detektere-virtualisering"><a class="anchor hidden-xs" href="#Detektere-virtualisering" title="Detektere-virtualisering"><span class="octicon octicon-link"></span></a>Detektere virtualisering</h3><ul>
+<li>Linux
+<ul>
+<li>dmesg | grep -i hypervisor</li>
+<li>sudo virt-what</li>
+</ul>
+</li>
+<li>Windows
+<ul>
+<li>Systeminfo</li>
+</ul>
+</li>
+</ul><h1 id="06---DNS"><a class="anchor hidden-xs" href="#06---DNS" title="06---DNS"><span class="octicon octicon-link"></span></a>06 - DNS</h1><p>DNS TCP/UDP port 53</p><h3 id="Navnegiving-av-maskiner"><a class="anchor hidden-xs" href="#Navnegiving-av-maskiner" title="Navnegiving-av-maskiner"><span class="octicon octicon-link"></span></a>Navnegiving av maskiner</h3><ul>
+<li>
+<p>Maskiner bruker binære tall</p>
+<pre><code>  Maskinen         |1000|0000|0010|0111|1100|1000|0000|0001|
+  Grupperte 4 bit  |1000|0000|0010|0111|1100|1000|0000|0001|
+  Heksadesimalt    |  8 |  0 |  2 |  7 |  C |  8 |  0 |  1 |
+  Desimalt byte    |   128.  |    39.  |   200.  |    1    |
+</code></pre>
+</li>
+<li>
+<p>Navn <a href="http://grm-core-gw.uia.no" target="_blank" rel="noopener">grm-core-gw.uia.no</a></p>
+</li>
+<li>
+<p>Mennesker liker best å huske navn</p>
+</li>
+</ul><h3 id="DNS---Domain-Name-System"><a class="anchor hidden-xs" href="#DNS---Domain-Name-System" title="DNS---Domain-Name-System"><span class="octicon octicon-link"></span></a>DNS - Domain Name System</h3><ul>
+<li>Behov or forenkling av sammenheng mellom nummer og navn
+<ul>
+<li>Liste på hver maskin
+<ul>
+<li>Windows - C:\windows\system32\drivers\etc\hosts</li>
+<li>Linux - /etc/hosts
+<ul>
+<li>I den spede begynnelsen (og i små nettverk)</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Liste på én maskin som alle kan slå opp i
+<ul>
+<li>1974 - ARPANET (hosts.txt)</li>
+</ul>
+</li>
+<li>Distribuert liste med distribuert ansvar for oppdatering.
+<ul>
+<li>Slik vi kjenner DNS i dag.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Domenenavn"><a class="anchor hidden-xs" href="#Domenenavn" title="Domenenavn"><span class="octicon octicon-link"></span></a>Domenenavn</h3><ul>
+<li>Skiller nivå med punktum ‘.’</li>
+<li>Toppen av rota er namespace ’ ’</li>
+<li>Begynner med innerst og rota til slutt
+<ul>
+<li>Det er platt til 127 nivå på navnet</li>
+<li>Hvert navn kan ikke være lengre enn 63 tegn</li>
+<li>Totalt navn må ikke overskrive 254 tegn</li>
+<li>Fullstendig navn har med .’ ’ til slutt</li>
+<li>Kan utelate slutt, og program vil fulføre det.</li>
+</ul>
+</li>
+</ul><h3 id="Navnetjenere"><a class="anchor hidden-xs" href="#Navnetjenere" title="Navnetjenere"><span class="octicon octicon-link"></span></a>Navnetjenere</h3><ul>
+<li>Tar imot forespørsler fra resolvere, dvs klienter</li>
+<li>Inneholder bl.a
+<ul>
+<li>IP nummer (<strong>A</strong>)
+<ul>
+<li>IPv6 nummer(<strong>AAAA</strong>)</li>
+</ul>
+</li>
+<li>Navn
+<ul>
+<li>Navnetjener (<strong>NS</strong>)</li>
+<li>E-Post tjener (<strong>MX</strong>)</li>
+<li>Alias (<strong>CNAME</strong>)</li>
+<li>Autoritet (<strong>SOA</strong>)</li>
+<li>Pekere (<strong>PTR</strong>)</li>
+<li>Tidsgrenser for varighet av data (<strong>TTL</strong>)</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Resolver---klienten"><a class="anchor hidden-xs" href="#Resolver---klienten" title="Resolver---klienten"><span class="octicon octicon-link"></span></a>Resolver - klienten</h3><ul>
+<li>program på klienter
+<ul>
+<li>resolv.conf i /etc - Lages normalt automatisk (DHCP)
+<ul>
+<li>inneholder (IP)adresse til de navntjenerene som brukes</li>
+</ul>
+</li>
+<li>Retter forespørsler til en navntjener i bakgrunnen, slik at sammenheng mellom IP- nummer og navn blir ‘Gjenomsiktig’</li>
+<li><strong>Iterativ forespørsel</strong>
+<ul>
+<li>Gjentar forespørsel til svar foreligger</li>
+<li>Begynner typisk fra toppen og ned</li>
+</ul>
+</li>
+<li><strong>Rekursiv forespørsel</strong>
+<ul>
+<li>Ber tjeneren returnere svaret, dvs at det er tjeneren som foretar den iterative spørringen. Dette svaret gjemmes oftest i en cache på tjeneren.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Type-navnetjenere"><a class="anchor hidden-xs" href="#Type-navnetjenere" title="Type-navnetjenere"><span class="octicon octicon-link"></span></a>Type navnetjenere</h3><ul>
+<li>Innholdsnavnetjenere
+<ul>
+<li><strong>Autorative</strong> - navnetjenere(Primary master - ns)</li>
+<li><strong>Slaver</strong> - fungerer som backup (Secondary M  - ns)
+<ul>
+<li>Svarer som regel på iterative forspørsler fra underståendee</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Cachende navnetjenere
+<ul>
+<li>Svarer på rekursive forespørsler</li>
+<li>Sender svar tilbake til klient og cacher opplysningen i tilfelle ny forespørsel kommer</li>
+</ul>
+</li>
+</ul><h3 id="Kommandoer-brukt-i-DNS"><a class="anchor hidden-xs" href="#Kommandoer-brukt-i-DNS" title="Kommandoer-brukt-i-DNS"><span class="octicon octicon-link"></span></a>Kommandoer brukt i DNS</h3><ul>
+<li>DIG
+<ul>
+<li>Anbefalt program
+<ul>
+<li>Gir gode svar og er pålitelig</li>
+<li>Er lettest å bruke i automatiserte sammenhenger</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>NSLOOKUP
+<ul>
+<li>Ikke anbefalt
+<ul>
+<li>Finnes til windows</li>
+<li>Har flere feie og mangler</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>HOST
+<ul>
+<li>Kan brukes
+<ul>
+<li>Hvis man ikke trenger tilleggsinformasjonen som man får ved dig</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>DRILL
+<ul>
+<li>fra <a href="http://NLnetLabs.nl" target="_blank" rel="noopener">NLnetLabs.nl</a>
+<ul>
+<li>Noe flere funksjoner enn dig</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Reverseoppslag"><a class="anchor hidden-xs" href="#Reverseoppslag" title="Reverseoppslag"><span class="octicon octicon-link"></span></a>Reverseoppslag</h3><ul>
+<li>Hvis vi har nummer og vil finne navn kalles det reverseoppslag</li>
+<li>Vi har toppdomener for adresser in-addr (ipv4)</li>
+<li>Ved revers forespørsler snus nummeret og vi får navnet 4.3.2.1.in-adr.arpa. når vi spør etter adressen til ip-nr 1.2.3.4</li>
+<li>Her finner vi en peker til navnet eg <a href="http://svar.datapor.no" target="_blank" rel="noopener">svar.datapor.no</a></li>
+</ul><h1 id="07---BIND"><a class="anchor hidden-xs" href="#07---BIND" title="07---BIND"><span class="octicon octicon-link"></span></a>07 - BIND</h1><blockquote>
+<p><strong>B</strong>erkeley<br>
+<strong>I</strong>nternet<br>
+<strong>N</strong>ame<br>
+<strong>D</strong>omain</p>
+</blockquote><ul>
+<li>BIND har vært dominerende lenge</li>
+<li>Har hatt en del sikkerhetsproblemer
+<ul>
+<li>Påstått å fikset og BIND 9.* skal være sikrere.
+<ul>
+<li>Forsatt uenighet om dette.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Sikkerhet må vurderes høyt, siden dette er en funksjon som <strong>må</strong> virke for at internett skal ha mening!</li>
+<li>For å gi robusthet bør det brukes mer enn ett program
+<ul>
+<li>Skille mellom autorative og cachende navnetjenere</li>
+<li>bruke mer enn ett program.</li>
+</ul>
+</li>
+</ul><h3 id="Namedconf"><a class="anchor hidden-xs" href="#Namedconf" title="Namedconf"><span class="octicon octicon-link"></span></a>Named.conf</h3><ul>
+<li>Konfigurasjonfil for BIND
+<ul>
+<li>Har utsagn i formatet {…};</li>
+</ul>
+</li>
+<li>Viktige parametere
+<ul>
+<li><strong>ACL</strong>
+<ul>
+<li>aksess kontroll lister</li>
+</ul>
+</li>
+<li><strong>include</strong>
+<ul>
+<li>kan peke til andre filer for å lette konfig</li>
+</ul>
+</li>
+<li><strong>options</strong>
+<ul>
+<li>kan sette mange variabler</li>
+</ul>
+</li>
+<li><strong>view</strong>
+<ul>
+<li>kan sette forksjellige parametere for forskjellige nett</li>
+</ul>
+</li>
+<li><strong>zone</strong>
+<ul>
+<li>Definerer sonefilene, helst som egen filer. navnet står innenfor " "</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Sonefiler"><a class="anchor hidden-xs" href="#Sonefiler" title="Sonefiler"><span class="octicon octicon-link"></span></a>Sonefiler</h3><ul>
+<li>Hver sone må ha en master tjener
+<ul>
+<li>Kan ha opp til flere slaver (secondary)</li>
+</ul>
+</li>
+<li>Master har den offisielle kopien av sonedata- <strong>Autoriativ</strong> navnetjener</li>
+<li>To filer per sone.
+<ul>
+<li>1stk for sonen</li>
+<li>1stk for reverseoppslag</li>
+</ul>
+</li>
+<li>Typen fil oppgis i named.conf
+<ul>
+<li><strong>master</strong>
+<ul>
+<li>for de soner man er autoritativ for</li>
+</ul>
+</li>
+<li><strong>hint</strong>
+<ul>
+<li>hvor man kan få hint om hvem som kan svare</li>
+</ul>
+</li>
+<li><strong>slave</strong>
+<ul>
+<li>for de soner man er slave</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Spesialtegn
+<ul>
+<li>;
+<ul>
+<li>Kommentar</li>
+</ul>
+</li>
+<li>@
+<ul>
+<li>Betyr default domenenavn (legges til hvis det ikke er fullstendige navn med . til slutt)</li>
+</ul>
+</li>
+<li>paranteser
+<ul>
+<li>kan brukes til å lage linjer over flere linjer…</li>
+</ul>
+</li>
+<li>" * " (stjerne)
+<ul>
+<li>Brukes som ‘wildcard’</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="kommandoer-i-sonefiler"><a class="anchor hidden-xs" href="#kommandoer-i-sonefiler" title="kommandoer-i-sonefiler"><span class="octicon octicon-link"></span></a>kommandoer i sonefiler</h3><ul>
+<li>er til å gjøre filene lettere å vedlikeholde. Filen leses kun en gang av programmet</li>
+<li>I realiteten bestemmes variabler
+<ul>
+<li><strong>$ORIGIN</strong> - Domenenavn
+<ul>
+<li>setter variabel som alltid legges til adresser som ikke er fullstendige (ender med .)</li>
+</ul>
+</li>
+<li><strong>$INCLUDE</strong>
+<ul>
+<li>kan fordele sonen over flere filer for å lette vedlikehold</li>
+</ul>
+</li>
+<li><strong>$TTL</strong> - default-ttl
+<ul>
+<li>Setter standard TTL hvis det utelates</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h1 id="08---Mer-om-DNS"><a class="anchor hidden-xs" href="#08---Mer-om-DNS" title="08---Mer-om-DNS"><span class="octicon octicon-link"></span></a>08 - Mer om DNS</h1><h3 id="Oppgaver-for-soneansvarlige"><a class="anchor hidden-xs" href="#Oppgaver-for-soneansvarlige" title="Oppgaver-for-soneansvarlige"><span class="octicon octicon-link"></span></a>Oppgaver for soneansvarlige</h3><ul>
+<li>Må ha kontroll over sin sone</li>
+<li>Kontroll gis av foreldresonen til sonen
+<ul>
+<li>eg sonen <a href="http://grm.uia.no" target="_blank" rel="noopener">grm.uia.no</a>. må fåes av <a href="http://uia.no" target="_blank" rel="noopener">uia.no</a></li>
+</ul>
+</li>
+<li>En tjenermaskin kan betjene flere soner, og <strong>trenger ikke</strong> stå i sonen den betjener</li>
+<li>Sone ansvarlige er som regel den tekniske ansvarlige</li>
+<li>I norge er det <a href="http://norid.no" target="_blank" rel="noopener">norid.no</a> som forvalter registreringer for .no domener (via registar)</li>
+</ul><h3 id="Litt-om-ansvarlige"><a class="anchor hidden-xs" href="#Litt-om-ansvarlige" title="Litt-om-ansvarlige"><span class="octicon octicon-link"></span></a>Litt om ansvarlige</h3><ul>
+<li>Det er en fordel å bruke mer enn ett tjenerprogram</li>
+<li>Bør ha to (eller helst tre) server med sonefile, på forksjellige nett</li>
+<li>Bruker man speisialtegn - ‘æ ø å’, bør man også registrere med eoa for robusthetens skyld</li>
+<li>Bør også ha med reverseoppslag</li>
+</ul><h3 id="DNSSEC"><a class="anchor hidden-xs" href="#DNSSEC" title="DNSSEC"><span class="octicon octicon-link"></span></a>DNSSEC</h3><ul>
+<li>Er utvidelser av DNS for å sikre at data som gies er korrekte</li>
+<li>Tanken er at det skal verifiseres at det virkelig er sonens ‘eier’ som gir data.
+<ul>
+<li>Hvis rotsonene er garantert ved public/private key, kan de godkjenne neste nivå, som igjen kan godkjenne nivået under det osv.</li>
+</ul>
+</li>
+<li>Prinsippet:</li>
+<li>bruker private/public key</li>
+<li>‘Chain of trust’ med rot serverene på toppen</li>
+<li>Tjenerene krypterer en hash av de sendte dataene med sin private nøkkel</li>
+<li>Mottaker kan bekrefte ved å dekryptere hashen med den offentlige nøkkelen og sammenligne med en egen hash.</li>
+<li>Har tatt tid å få rot og toppnivåene med.</li>
+</ul><h3 id="Problemer-med-DNSSEC"><a class="anchor hidden-xs" href="#Problemer-med-DNSSEC" title="Problemer-med-DNSSEC"><span class="octicon octicon-link"></span></a>Problemer med DNSSEC</h3><ul>
+<li>Flere pakker blir større enn 512B =&gt; problem med udp.
+<ul>
+<li>Ikke alle brannmurer godtar TCP</li>
+<li>Ikke alle brannmurer slipper store udp pakker inn</li>
+</ul>
+</li>
+<li>Problem å bytte nøkler synkront</li>
+</ul><h3 id="NSD---Name-Server-Deamon"><a class="anchor hidden-xs" href="#NSD---Name-Server-Deamon" title="NSD---Name-Server-Deamon"><span class="octicon octicon-link"></span></a>NSD - Name Server Deamon</h3><ul>
+<li>Er en autoritativ navnetjener
+<ul>
+<li>Rask, opp til 5 ganger raskere på <strong>DNSSEC</strong> svar
+<ul>
+<li>Sonefiler gjøres om til database med mulige svar istedet for å søke gjennom tekstfiler for å gi raskere svar.</li>
+</ul>
+</li>
+<li>Bygd etter 2003 for å være tilpasset DNSSEC</li>
+<li>Alternativ til BIND også på rot-tjenerne</li>
+</ul>
+</li>
+</ul><h3 id="Unbound"><a class="anchor hidden-xs" href="#Unbound" title="Unbound"><span class="octicon octicon-link"></span></a>Unbound</h3><ul>
+<li>Er en rekursiv navnetjener
+<ul>
+<li>Kan cache resultater</li>
+<li>Kan utføre DNSSEC validering</li>
+<li>Kan jobbe med IPv6</li>
+</ul>
+</li>
+<li>Laget av Nlnet labs (m.fl.) og er parhest til NSD</li>
+<li>Påbegynt i 2004</li>
+</ul><h1 id="10---Epost"><a class="anchor hidden-xs" href="#10---Epost" title="10---Epost"><span class="octicon octicon-link"></span></a>10 - Epost</h1><h3 id="De-forskjellige-tjenestene"><a class="anchor hidden-xs" href="#De-forskjellige-tjenestene" title="De-forskjellige-tjenestene"><span class="octicon octicon-link"></span></a>De forskjellige tjenestene</h3><ul>
+<li>MUA
+<ul>
+<li>Mail User Agent</li>
+<li>e-postklient på brukers maskin</li>
+</ul>
+</li>
+<li>MTA
+<ul>
+<li>Mail Transfer Agent</li>
+<li>e-posttjeneren for mottak og sending av meldinger</li>
+</ul>
+</li>
+<li>MDA
+<ul>
+<li>Mail Delivery Agent</li>
+<li>Tjener for å legge e-post i forskjellige mapper avhengige av innhold</li>
+</ul>
+</li>
+</ul><h3 id="Form-på-e-post"><a class="anchor hidden-xs" href="#Form-på-e-post" title="Form-på-e-post"><span class="octicon octicon-link"></span></a>Form på e-post</h3><ul>
+<li>Konvolutt (usynlig)
+<ul>
+<li>Inneholder informasjon om avsender og mottaker</li>
+</ul>
+</li>
+<li>innhold
+<ul>
+<li>Meldingshode
+<ul>
+<li>Informasjon om avsender(e) og mottaker(e)</li>
+<li>Diverse tekniske opplysninger</li>
+</ul>
+</li>
+<li>Meldingskropp
+<ul>
+<li>Selve meldingen</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="SMTP"><a class="anchor hidden-xs" href="#SMTP" title="SMTP"><span class="octicon octicon-link"></span></a>SMTP</h3><blockquote>
+<p><strong>S</strong>imple<br>
+<strong>M</strong>ail<br>
+<strong>T</strong>ransfer<br>
+<strong>P</strong>Protocol</p>
+</blockquote><ul>
+<li>En tekst-basert protokoll som brukes for å levere e-posten til den riktige tjeneren for henting.
+<ul>
+<li>Bruker TCP portnr. 25</li>
+<li>Bruker enkle kommandoer</li>
+<li>Hele sesjon styres fra klient</li>
+<li>Forutsetter at server er tilgjengelig
+<ul>
+<li>Lang timeout; 5min anbefalt</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="MIME"><a class="anchor hidden-xs" href="#MIME" title="MIME"><span class="octicon octicon-link"></span></a>MIME</h3><blockquote>
+<p><strong>M</strong>ultipurpose<br>
+<strong>I</strong>nternet<br>
+<strong>M</strong>ail<br>
+<strong>E</strong>xtensions</p>
+</blockquote><ul>
+<li>Standard var fra 1982 7bit ASCII
+<ul>
+<li>Behov for flere tegn, som ‘æøå’</li>
+<li>Behov for andre format;
+<ul>
+<li>Dokumenter</li>
+<li>Bilder</li>
+<li>Lyd</li>
+<li>osv…</li>
+</ul>
+</li>
+<li>MIME brukes til:
+<ul>
+<li>Å utvide tegnsettet i meldingshoder</li>
+<li>Å sikre at tegn i meldingskroppen kommer riktig frem gjennom SMTP protokollen.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h1 id="11---Postfix"><a class="anchor hidden-xs" href="#11---Postfix" title="11---Postfix"><span class="octicon octicon-link"></span></a>11 - Postfix</h1><ul>
+<li>Ble først lanser i 1999 av Wietse Venema under navnet VMailer
+<ul>
+<li>Frigitt under IBM Public License 1.0</li>
+</ul>
+</li>
+<li>Skal være god mot ‘buffer overflow’</li>
+<li>Skal kunne ta store mengder e-post</li>
+<li>bygd opp av mange daemoner, med begrensede rettigheter.</li>
+<li>lett å tilpasse egne behov</li>
+<li>siste version 3.1.4</li>
+</ul><h3 id="Viktige-filer-og-kataloger"><a class="anchor hidden-xs" href="#Viktige-filer-og-kataloger" title="Viktige-filer-og-kataloger"><span class="octicon octicon-link"></span></a>Viktige filer og kataloger</h3><ul>
+<li>Konfigurasjonsfiler (i /etc/postfix)
+<ul>
+<li><strong><a href="http://main.cf" target="_blank" rel="noopener">main.cf</a></strong> - konfigurering av postfix
+<ul>
+<li>her settes de fleste parametre for hvordan postfix skal kjøres</li>
+<li>Variabler og parametre</li>
+</ul>
+</li>
+<li><strong><a href="http://master.cf" target="_blank" rel="noopener">master.cf</a></strong> - konfigurering av master daemon
+<ul>
+<li>Her finnes informasjon om hvordan daemoner skal kjøre</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Tabeller og lister (i /et/postfix)
+<ul>
+<li>konverteringstabeller og listeparametere</li>
+<li>f.eks. <strong>aliases.db</strong></li>
+</ul>
+</li>
+</ul><h3 id="kommandoer"><a class="anchor hidden-xs" href="#kommandoer" title="kommandoer"><span class="octicon octicon-link"></span></a>kommandoer</h3><ul>
+<li>postfix
+<ul>
+<li>kontrollerer tjeneren. Starterm stopper og re-starter e-post systemet.</li>
+<li>postfix reload =&gt; leser postfix konfigurasjoner om igjen uten å stoppe.</li>
+</ul>
+</li>
+<li>sendmail
+<ul>
+<li>sender en epost til postdrop som legger e-posten i maildrop katalogen
+<ul>
+<li><strong>Postdrop</strong> er prossesen som postfix via sendmail bruker for å legge epost i maildrop køen</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>mailq
+<ul>
+<li>lister opp e-post som fortsatt er i kø, dvs de e-poster som ikke er levert.</li>
+</ul>
+</li>
+<li>postconf
+<ul>
+<li>vier eller oppdaterer postfix (<a href="http://main.cf" target="_blank" rel="noopener">main.cf</a>)</li>
+</ul>
+</li>
+</ul><h3 id="Hva-må-være-klart-for-å-sette-opp-Postfix"><a class="anchor hidden-xs" href="#Hva-må-være-klart-for-å-sette-opp-Postfix" title="Hva-må-være-klart-for-å-sette-opp-Postfix"><span class="octicon octicon-link"></span></a>Hva må være klart for å sette opp Postfix</h3><ul>
+<li>Maskinnavn og domener</li>
+<li>Hvilken adresse brukes i utgående e-post</li>
+<li>Hvem skal man motta e-post for</li>
+<li>Hvem skal man sende e-post for</li>
+<li>Hvor skal e-post videresendes til</li>
+<li>Hvordan sender man e-post til andre</li>
+<li>Diverse parametre</li>
+<li>Hvem skal ta imort e-post til root (aliases)</li>
+</ul><h1 id="12---e-Post-Dovecot"><a class="anchor hidden-xs" href="#12---e-Post-Dovecot" title="12---e-Post-Dovecot"><span class="octicon octicon-link"></span></a>12 - e-Post, Dovecot</h1><h3 id="POP3"><a class="anchor hidden-xs" href="#POP3" title="POP3"><span class="octicon octicon-link"></span></a>POP3</h3><blockquote>
+<p><strong>P</strong>ost<br>
+<strong>O</strong>ffice<br>
+<strong>P</strong>rotocol<br>
+<strong>3</strong></p>
+</blockquote><ul>
+<li>Enkel TCP-protokoll som bruker port 110</li>
+<li>Brukes primært til å hente e-post fra en tjener</li>
+<li>Sesjoner opprettes og styres fra klienten</li>
+<li>Enkle svar: +OK eller -ERR<br>
+<strong>SENDER BRUKERNAVN OG PASSORD I KLARTEKST!</strong></li>
+</ul><h3 id="POP3---Stadier"><a class="anchor hidden-xs" href="#POP3---Stadier" title="POP3---Stadier"><span class="octicon octicon-link"></span></a>POP3 - Stadier</h3><ul>
+<li>Autorisasjonsfasen
+<ul>
+<li>Bruker to kommandoer <strong>user</strong> og <strong>pass</strong>, selvforklarende</li>
+</ul>
+</li>
+<li>Transaksjonsfasen
+<ul>
+<li>Her kan man se hvilke e-brev som ligger på tjener, laste ned og slette på tjeneren.</li>
+</ul>
+</li>
+<li>Oppgaderingsfasen
+<ul>
+<li>Oppdateringer (slettinger ol. tar tid, så det blir først gjort etter at sesjonen er avsluttet av klienten)</li>
+</ul>
+</li>
+</ul><h3 id="IMAP4"><a class="anchor hidden-xs" href="#IMAP4" title="IMAP4"><span class="octicon octicon-link"></span></a>IMAP4</h3><blockquote>
+<p><strong>I</strong>nternet<br>
+<strong>M</strong>essage<br>
+<strong>A</strong>access<br>
+<strong>P</strong>rotocol</p>
+</blockquote><ul>
+<li>Mer avansert protokoll
+<ul>
+<li>Tilpasset maskiner</li>
+</ul>
+</li>
+<li>e-post kan ligge på tjener</li>
+<li>Kan bruke mange mapper</li>
+<li>Tilgjengelig fra over alt</li>
+<li>Har en offline modus</li>
+</ul><h3 id="Dovecot"><a class="anchor hidden-xs" href="#Dovecot" title="Dovecot"><span class="octicon octicon-link"></span></a>Dovecot</h3><ul>
+<li>Er en POP3 og IMAP tjener
+<ul>
+<li>Lagt stor vekt på sikkerhet</li>
+<li>rask, bruker lite minne</li>
+<li>lett å sette opp og administrere</li>
+<li>Passer små og store system</li>
+<li>kan bruke mbox og maildir format</li>
+<li>svært fleksibel i oppsettet</li>
+<li>har også en MDA</li>
+</ul>
+</li>
+</ul><h1 id="13---IPtables"><a class="anchor hidden-xs" href="#13---IPtables" title="13---IPtables"><span class="octicon octicon-link"></span></a>13 - IPtables</h1><h3 id="Protokollstabeler"><a class="anchor hidden-xs" href="#Protokollstabeler" title="Protokollstabeler"><span class="octicon octicon-link"></span></a>Protokollstabeler</h3><pre><code>        _________________________________________
+        | Applikasjon     (data)|               |
+        ````````````````````````|  APPLIKASJON  |
+        | Presentasjon    (data)|               |
+        `````````````````````````````````````````  
+        | Sesjon          (data)|               |
+        ````````````````````````|   TRANSPORT   |
+        | Transport  (segmenter)|               |
+        `````````````````````````````````````````
+        | Nettverk        (data)|   NETTVERK    |
+        ````````````````````````````````````````|
+        | Link/ Linje     (data)|               |
+        ````````````````````````|  Link/Linje   |
+        | Fysisk           (bit)|               |
+        ````````````````````````````````````````'
+</code></pre><h3 id="Oppbygging-av-IPtables"><a class="anchor hidden-xs" href="#Oppbygging-av-IPtables" title="Oppbygging-av-IPtables"><span class="octicon octicon-link"></span></a>Oppbygging av IPtables</h3><ul>
+<li>Er et sett med tabeller</li>
+<li>Hver tabell har ‘kjeder’
+<ul>
+<li>kjeden er en kjede av regler:
+<ul>
+<li>‘Hvis pakkehodet <strong>ikke</strong> ser slik’ ut går man til neste regel</li>
+<li>‘Hvis pakkehoder, ser slik ut, gjør dette’</li>
+<li>Hvis ingen av pakkene fyller betingelsene følges kjedens policy</li>
+</ul>
+</li>
+<li>Det er mulig å legge til egendefinerte kjeder</li>
+</ul>
+</li>
+<li>Kjeder som alt finnes
+<ul>
+<li>PREROUTING</li>
+<li>INPUT</li>
+<li>FORWARDING</li>
+<li>OUTPUT</li>
+<li>POSTROUTING</li>
+</ul>
+</li>
+</ul><h3 id="Tabeller"><a class="anchor hidden-xs" href="#Tabeller" title="Tabeller"><span class="octicon octicon-link"></span></a>Tabeller</h3><ul>
+<li>filter
+<ul>
+<li>er default tabell og brukes for filtrering av pakker</li>
+</ul>
+</li>
+<li>nat
+<ul>
+<li>brukes for å endre adresser (til og fra)</li>
+</ul>
+</li>
+<li>mangle
+<ul>
+<li>brukes for å endre pakker på diverse vis</li>
+</ul>
+</li>
+<li>raw
+<ul>
+<li>brukes stort sett bare til å slå av tracking</li>
+</ul>
+</li>
+<li>security
+<ul>
+<li>brukes spesielt for MAC
+<ul>
+<li><strong>M</strong>andatory <strong>A</strong>ccess <strong>C</strong>ontrol</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul><h3 id="Form-på-regler"><a class="anchor hidden-xs" href="#Form-på-regler" title="Form-på-regler"><span class="octicon octicon-link"></span></a>Form på regler</h3><ul>
+<li>Først angis en betingelse, deretter en handling (mål) hvis betingelsen oppfylles.<br>
+<img src="https://i.imgur.com/eA3JONa.png" alt=""></li>
+</ul><h3 id="En-enkel-brannmur"><a class="anchor hidden-xs" href="#En-enkel-brannmur" title="En-enkel-brannmur"><span class="octicon octicon-link"></span></a>En enkel brannmur</h3><ul>
+<li>Setter policy til å forkaste alle innkommende pakker
+<ul>
+<li><em>iptables -P INPUT -j DROP</em></li>
+</ul>
+</li>
+<li>Setter policy til å forkaste alle pakker som skal til andre maskiner
+<ul>
+<li><em>iptables -P FORWARD -j DROP</em></li>
+</ul>
+</li>
+<li>Lar bare etablerte forbindelser komme inn utenfra
+<ul>
+<li><em>iptables -A INPUT -m state --state ESTABLISHED,RELATED -j ACCEPT</em></li>
+</ul>
+</li>
+<li>Slipper gjennom pakker fra localhost (samme maskin)
+<ul>
+<li><em>iptables -A INPUT -i lo -j ACCEPT</em></li>
+</ul>
+</li>
+<li>Slipper ut alle pakker fra egen maskin
+<ul>
+<li><em>iptables -A OUTPUT -o lo -j ACCEPT</em></li>
+</ul>
+</li>
+</ul><h3 id="NAT---Enkel-ruting"><a class="anchor hidden-xs" href="#NAT---Enkel-ruting" title="NAT---Enkel-ruting"><span class="octicon octicon-link"></span></a>NAT - Enkel ruting</h3><ul>
+<li>Vi bruker tabellen nat med kjedene PREROUTING og POSTROUTING</li>
+<li><strong>SNAT</strong> (Source NAT) brukes for å endre adressen i det den går ut
+<ul>
+<li><em>iptables -t nat -A POSTROUTING -o eth1 -j SNAT --to x.x.x.x</em></li>
+</ul>
+</li>
+<li><strong>MASQUERADE</strong> er bare et speisaltilfelle der maskinen tildeles IP dynamisk (sjekker egen IP først)</li>
+<li><strong>DNAT</strong>- (Destination NAT) - brukes for å endre mottakeradressee
+<ul>
+<li><em>iptables -t nat -A PREROUTING -p TCP --dport 80 -i eth0 -j DNAT --to y.y.y.y:8080</em></li>
+</ul>
+</li>
+</ul><h1 id="14---Apache"><a class="anchor hidden-xs" href="#14---Apache" title="14---Apache"><span class="octicon octicon-link"></span></a>14 - Apache</h1><h3 id="URI"><a class="anchor hidden-xs" href="#URI" title="URI"><span class="octicon octicon-link"></span></a>URI</h3><blockquote>
+<p><strong>U</strong>uniform<br>
+<strong>R</strong>esource<br>
+<strong>I</strong>dentifier</p>
+</blockquote><ul>
+<li>Referanser bruker URI, som location (URL) og names (URN), til å beskrive ressursen som metoden skal anvendes på.</li>
+<li>Vil oftest beskrive en fil og hvor den finnes
+<ul>
+<li>Protokoll://vert:port/katalog/fil</li>
+<li>Har me protokoll som skal brukes og adresse:</li>
+<li><a href="http://www.uia.no/no/index.php" target="_blank" rel="noopener">http://www.uia.no/no/index.php</a></li>
+<li><a href="ftp://ftp.uninett.no/" target="_blank" rel="noopener">ftp://ftp.uninett.no/</a></li>
+<li>file://tmp/dmesg.log</li>
+<li><a href="mailto:post@uia.no" target="_blank" rel="noopener">mailto:post@uia.no</a></li>
+</ul>
+</li>
+<li>De fleste web-lesere fyller ut automatisk</li>
+</ul><h3 id="HTML"><a class="anchor hidden-xs" href="#HTML" title="HTML"><span class="octicon octicon-link"></span></a>HTML</h3><ul>
+<li>Er et markeringsspråk, med innhold og markering for formatering av teksten</li>
+<li>bruker tagger (tags) for markeringene</li>
+</ul><h3 id="HTTP"><a class="anchor hidden-xs" href="#HTTP" title="HTTP"><span class="octicon octicon-link"></span></a>HTTP</h3><blockquote>
+<p><strong>H</strong>yper<br>
+<strong>T</strong>ext<br>
+<strong>T</strong>ransfer<br>
+<strong>P</strong>rotocol</p>
+</blockquote><ul>
+<li>HTTP er en applikasjons-nivå protokopp for distribuerte hypermedia informasjonssystemer.</li>
+<li>HTTP brukes også som en generisk protokoll for kommunikasjon mellom ‘user agents’ og proxy/gatewayer til andre Internet systemer som bruker andre protkoller som SMTP,NNTP,FTP,Gopher og WAIS. På den måten git HTTP hypermedia tilgang til ressurser fra mange typer applikasjoner.</li>
+<li>Er en forespørsel/respons protokoll</li>
+<li>Er tilstandsløs</li>
+</ul><h3 id="HTTP-version-2-HTTP2"><a class="anchor hidden-xs" href="#HTTP-version-2-HTTP2" title="HTTP-version-2-HTTP2"><span class="octicon octicon-link"></span></a>HTTP version 2 (HTTP/2)</h3><ul>
+<li>Optimized expression of the semantics of the Hypertext Transfer Protocol</li>
+<li>More efficient use of networking resources and a reduced perception of latency by
+<ul>
+<li>introducing header field compression</li>
+<li>allowing multiple concurrent exchanges on the same connection</li>
+<li>introduces unsolicted push of representations from server to clients</li>
+</ul>
+</li>
+<li>Is an alternative to, but does not obsolete, the HTTP/1.1 message syntax.</li>
+<li>HTTP’s existing semantics remain unchanged.</li>
+</ul><h3 id="HTTP-11-oppbygging"><a class="anchor hidden-xs" href="#HTTP-11-oppbygging" title="HTTP-11-oppbygging"><span class="octicon octicon-link"></span></a>HTTP 1.1 oppbygging</h3><ul>
+<li>Request
+<ul>
+<li>Request line
+<ul>
+<li>Metode URI HTTP/version</li>
+</ul>
+</li>
+<li>Headere
+<ul>
+<li>Generelle eller spesifikke, f.eks. betingelser</li>
+</ul>
+</li>
+<li>Meldingskropp
+<ul>
+<li>data</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Response
+<ul>
+<li>Statusline
+<ul>
+<li>HTTP/version Statuskode forklaring</li>
+</ul>
+</li>
+<li>Headere</li>
+<li>Meldingskropp</li>
+<li>data</li>
+</ul>
+</li>
+</ul><h3 id="Oppbygging-av-Apache"><a class="anchor hidden-xs" href="#Oppbygging-av-Apache" title="Oppbygging-av-Apache"><span class="octicon octicon-link"></span></a>Oppbygging av Apache</h3><ul>
+<li>Core server</li>
+<li>Moduler
+<ul>
+<li>Et base sett av moduler følger med, core</li>
+<li>En Multi-processing Module</li>
+<li>Tilleggsmoduler kan også velges</li>
+</ul>
+</li>
+<li>Konfigureres ved å plasssere direktiver i klartekst i konfigurasjonsfiler</li>
+</ul><h3 id="Moduler-som-er-med"><a class="anchor hidden-xs" href="#Moduler-som-er-med" title="Moduler-som-er-med"><span class="octicon octicon-link"></span></a>Moduler som er med</h3><ul>
+<li>Core
+<ul>
+<li>Selve kjernemodules følger alltid med</li>
+</ul>
+</li>
+<li>http_core
+<ul>
+<li>later til å være det samme (gammelt navn ?)</li>
+</ul>
+</li>
+<li>mod_so
+<ul>
+<li>for å kunne laste opp andre moduler (eller kode) ved oppstart</li>
+</ul>
+</li>
+<li>mod_ssl
+<ul>
+<li>støtte for ssl/tls<br>
+…osv</li>
+</ul>
+</li>
+</ul><h3 id="Loggfiler"><a class="anchor hidden-xs" href="#Loggfiler" title="Loggfiler"><span class="octicon octicon-link"></span></a>Loggfiler</h3><ul>
+<li>Access (access_log)
+<ul>
+<li>Alle requests serveren har prosessert</li>
+</ul>
+</li>
+<li>Feil (error_log)
+<ul>
+<li>Feilmeldinger fra programmer</li>
+<li>Filer som ikke finnes<br>
+… Logrotations… osv</li>
+</ul>
+</li>
+</ul><h1 id="15---Apache-2"><a class="anchor hidden-xs" href="#15---Apache-2" title="15---Apache-2"><span class="octicon octicon-link"></span></a>15 - Apache 2</h1><h3 id="Server-side-scripting"><a class="anchor hidden-xs" href="#Server-side-scripting" title="Server-side-scripting"><span class="octicon octicon-link"></span></a>Server side scripting</h3><ul>
+<li>CGI
+<ul>
+<li>Common Gateway interface</li>
+</ul>
+</li>
+<li>SSI
+<ul>
+<li>Server Side Includes</li>
+</ul>
+</li>
+<li>Servlets
+<ul>
+<li>Apache Tomcat Server side scripting</li>
+</ul>
+</li>
+<li>PHP
+<ul>
+<li>PHP:Hypertext Preprocessor</li>
+</ul>
+</li>
+</ul><h3 id="CGI"><a class="anchor hidden-xs" href="#CGI" title="CGI"><span class="octicon octicon-link"></span></a>CGI</h3><ul>
+<li>er en metode for å kunne bruke program/script til å generere website (mer interatktivt).</li>
+<li>Egen modul må være aktivert (mod_cgi)</li>
+</ul><h3 id="SSI---Server-Side-Includes"><a class="anchor hidden-xs" href="#SSI---Server-Side-Includes" title="SSI---Server-Side-Includes"><span class="octicon octicon-link"></span></a>SSI - Server-Side Includes</h3><ul>
+<li>er små script plassert i HTML-sidene, som evalueres i det en side servers til klient
+<ul>
+<li>Enkel måte å inkludere mindre mengder dynamisk innhol (som dato, eller innholdet i en liten fil) uten å måtte kjøre hele siden via et CGI-program eller tilsvarende</li>
+</ul>
+</li>
+</ul><h3 id="Virtuelle-klienter"><a class="anchor hidden-xs" href="#Virtuelle-klienter" title="Virtuelle-klienter"><span class="octicon octicon-link"></span></a>Virtuelle klienter</h3><ul>
+<li>samme tjener kan betjene flere web-steder</li>
+<li>NameBased virtual hosts
+<ul>
+<li>Forskjellige navn på samme IP nummer</li>
+<li>SSL etter versjon 2.2.12 skal gå</li>
+<li>Virker ikke på HTTP/1.0</li>
+</ul>
+</li>
+<li>IP-based virtual hosts
+<ul>
+<li>Forskjellig IP adresse for hver host</li>
+<li>Må ha flere listen direktiver for flere IP</li>
+</ul>
+</li>
+<li>Kan også kjøre flere instanser av httpd på samme maskin</li>
+</ul><h3 id="Webserver-sikkerhet"><a class="anchor hidden-xs" href="#Webserver-sikkerhet" title="Webserver-sikkerhet"><span class="octicon octicon-link"></span></a>Webserver sikkerhet</h3><ul>
+<li>Det er ikke sikkert webservern er det svakeste leddet i rekken
+<ul>
+<li>Mange angrep i dag går mot underliggende operativsystem, programmer som generere dynamisk innhold, filstruktur, eller andre systemer som webservern jobber sammen med.</li>
+</ul>
+</li>
+<li>God oversikt
+<ul>
+<li>Hva har du i systemet ditt…</li>
+</ul>
+</li>
+</ul><h1 id="16---FTP---File-Transfer-protocol"><a class="anchor hidden-xs" href="#16---FTP---File-Transfer-protocol" title="16---FTP---File-Transfer-protocol"><span class="octicon octicon-link"></span></a>16 - FTP - File Transfer protocol</h1><h3 id="Anonymous-ftp"><a class="anchor hidden-xs" href="#Anonymous-ftp" title="Anonymous-ftp"><span class="octicon octicon-link"></span></a>Anonymous ftp</h3><ul>
+<li>Normalt vil brukere som finnes på maskinen bli ledet til sitt hjemmeområde (eller en katalog på hjemmeområdet)</li>
+<li>Bruker /etc/passwd og /et/group til autentisering</li>
+<li>Vil ofte ha mulighet for andre brukere også
+<ul>
+<li>Derfor kan brukeren anonymous (og ftp) defineres</li>
+<li>anonymous (og ftp) vil ofte kunne logge inn uten passord, og styres til egne kataloger</li>
+</ul>
+</li>
+</ul><h3 id="Passiv-ftp"><a class="anchor hidden-xs" href="#Passiv-ftp" title="Passiv-ftp"><span class="octicon octicon-link"></span></a>Passiv ftp</h3><ul>
+<li>FTP bruker to porter.
+<ul>
+<li>En til kontroll</li>
+<li>En til data</li>
+</ul>
+</li>
+<li>Dette skaper problemer med brannmurer, siden det er serveren (utenfra) som prøver å etablere dataporten</li>
+<li>RFC 1579 gir løsningen; Passiv ftp
+<ul>
+<li>Tjeneren åpner en post hos seg og opplyser klienten om hvilken det er.</li>
+<li>så kan klienten åpne forbindelsen også på denne porten</li>
+</ul>
+</li>
+</ul><h3 id="Sikkerhet"><a class="anchor hidden-xs" href="#Sikkerhet" title="Sikkerhet"><span class="octicon octicon-link"></span></a>Sikkerhet</h3><ul>
+<li>FTP i seg selv er ikke sikkert
+<ul>
+<li>Alt overføres i klartekst</li>
+</ul>
+</li>
+<li>Sikkerhetstillegg finnes</li>
+<li>I praksis:
+<ul>
+<li>Bedre autentiseringsmekanismer</li>
+<li>Sikre FTP vha kryptering “pakket rundt” protokollen (SSL/TLS)</li>
+</ul>
+</li>
+</ul><h3 id="Metoder-for-å-sikre-ftp"><a class="anchor hidden-xs" href="#Metoder-for-å-sikre-ftp" title="Metoder-for-å-sikre-ftp"><span class="octicon octicon-link"></span></a>Metoder for å sikre ftp</h3><ul>
+<li>FTPS (FTP Secure/FTP-SSL)
+<ul>
+<li>Sikrer FTP ved å kryptere data på et lavere OSI-Modellag. SSL/TLS.</li>
+<li>Public key sertifikat, som HTTP over SSL</li>
+</ul>
+</li>
+<li>Secure File Transfer Protocol (SFTP)
+<ul>
+<li>Egen protokoll, subsystem for SSH</li>
+</ul>
+</li>
+<li>Tunnellere FTP over SSH (SSH FTP)<br>
+<strong>Dette er ikke det samme som SFTP</strong>
+<ul>
+<li>Beskytter ofte bare signaleringskanale, ikke dataoverføingskanalen</li>
+</ul>
+</li>
+</ul><h1 id="17---Nagios"><a class="anchor hidden-xs" href="#17---Nagios" title="17---Nagios"><span class="octicon octicon-link"></span></a>17 - Nagios</h1><ul>
+<li>Kan brukes til å overvåke trafikk over de fleste protokolle og tilstand på hardware</li>
+<li>Er bygd opp med moduler som fritt kan lages og utvide mulighetene</li>
+<li>Kommersielt, men har fortsatt core som open-source</li>
+</ul><h3 id="Overvåke-Windows-Maskiner"><a class="anchor hidden-xs" href="#Overvåke-Windows-Maskiner" title="Overvåke-Windows-Maskiner"><span class="octicon octicon-link"></span></a>Overvåke Windows Maskiner</h3><ul>
+<li>Må installere en klient på Windows Maskinen: <em>NSClient++</em></li>
+<li><em>check_nt</em>
+<ul>
+<li>Kommando i commands.cfg</li>
+</ul>
+</li>
+<li>Må fjerne # fra linjen med windows.cfg i nagios.cfg</li>
+<li>Definer host i windows.cfg (en pr maskin)</li>
+</ul><h3 id="Definere-hva-som-overvåkes"><a class="anchor hidden-xs" href="#Definere-hva-som-overvåkes" title="Definere-hva-som-overvåkes"><span class="octicon octicon-link"></span></a>Definere hva som overvåkes</h3><ul>
+<li>
+<p>Legg til service i windows.cfg for hver parameter som overvåkes</p>
+</li>
+<li>
+<p>Les dokumentasjon for flere eksempler</p>
+<pre><code>define service{
+    use generic-service
+    host_name winserver ;navn på maskinen
+    service_description Memory Usage
+    check_command check_nt!MEMUSE!-w 80 -c 90
+    ;-w står for warning
+    ;-c står for kritisk,
+    ;ved 80 og 90% bruk av minnet
+}
+</code></pre>
+</li>
+</ul><h3 id="Overvåke-snmp-enheter"><a class="anchor hidden-xs" href="#Overvåke-snmp-enheter" title="Overvåke-snmp-enheter"><span class="octicon octicon-link"></span></a>Overvåke snmp enheter</h3><ul>
+<li>skrivere og switcher har typis snmp installert</li>
+<li>Må definere host og service omtrent som for windows, men nå i hhv printer.cfg og switch.cfg</li>
+<li>Må slå opp i dokumentasjon for kommandoer</li>
+</ul><h4 id="andre-enheter"><a class="anchor hidden-xs" href="#andre-enheter" title="andre-enheter"><span class="octicon octicon-link"></span></a>andre enheter</h4><ul>
+<li>Offentlige tjenester som HTTP, POP3, IMAP, FTP, SSH osv.</li>
+<li>Finnes i commands.cfg</li>
+</ul><h1 id="Begreper"><a class="anchor hidden-xs" href="#Begreper" title="Begreper"><span class="octicon octicon-link"></span></a>Begreper</h1><h2 id="Driftsfilosofi"><a class="anchor hidden-xs" href="#Driftsfilosofi" title="Driftsfilosofi"><span class="octicon octicon-link"></span></a>Driftsfilosofi</h2><ul>
+<li>NMS - Network Management System
+<ul>
+<li>Styre-/Kontrollkonsollet - tar imot og presenterer data for brukere</li>
+</ul>
+</li>
+<li>SNMP - Simple Network Management Protocol
+<ul>
+<li>Protokoll som styrer hvordan tlgang til informasjon i MIB skal være</li>
+</ul>
+</li>
+<li>MIB - Management Information Base
+<ul>
+<li>Database med informasjon om nettverket</li>
+</ul>
+</li>
+<li>SMI - Structure of Management Information
+<ul>
+<li>Beskrivelse av data-struktur på en MIV</li>
+</ul>
+</li>
+<li>Agent
+<ul>
+<li>Hjelpere ute på nettverket som tilrettelegger enhetene slik at informasjonen blir lesbar og tilgjengelig for SNMP</li>
+</ul>
+</li>
+<li>ICMP - Internet Control Message Protocol
+<ul>
+<li>Teller pakker, Registreer feilsendinger og redirect - retter opp i feil i rutere.</li>
+</ul>
+</li>
+<li>RMON - Remote MONitoring
+<ul>
+<li>Samler inn informasjon uten forespørsel fra NMS</li>
+</ul>
+</li>
+<li>SMON - Switch MONitoring
+<ul>
+<li>utvidelse av RMON, Muliggjør overvåking av svitsjer</li>
+</ul>
+</li>
+</ul><h2 id="SUBNETT"><a class="anchor hidden-xs" href="#SUBNETT" title="SUBNETT"><span class="octicon octicon-link"></span></a>SUBNETT</h2><ul>
+<li>CIDR
+<ul>
+<li>Classless Inter-Domain Routing</li>
+</ul>
+</li>
+</ul><h2 id="Virtualisering"><a class="anchor hidden-xs" href="#Virtualisering" title="Virtualisering"><span class="octicon octicon-link"></span></a>Virtualisering</h2><ul>
+<li>SAAS - Software As A Service
+<ul>
+<li>Har tatt virtualisering videre og tilbyr bare programet</li>
+</ul>
+</li>
+<li>VMM - Virtual Machine Monitor Hypervisor
+<ul>
+<li>Kan være koblet rett til hardwaren, som OS</li>
+</ul>
+</li>
+</ul><h2 id="IPv6"><a class="anchor hidden-xs" href="#IPv6" title="IPv6"><span class="octicon octicon-link"></span></a>IPv6</h2><ul>
+<li>QoS - Quality Of Service
+<ul>
+<li>tjeneste kvalitet, prioriterer pakker etter hvor mye båndbredde de trenger til å fungere optimalt.</li>
+</ul>
+</li>
+</ul><h2 id="Backup"><a class="anchor hidden-xs" href="#Backup" title="Backup"><span class="octicon octicon-link"></span></a>Backup</h2><ul>
+<li>SLA - Service Level Agreement
+<ul>
+<li>Definere kvantitet og kvalitet på tjenestene</li>
+</ul>
+</li>
+<li>ITIL - Information Technology infrastructure Libary</li>
+</ul><h2 id="DNS"><a class="anchor hidden-xs" href="#DNS" title="DNS"><span class="octicon octicon-link"></span></a>DNS</h2><ul>
+<li>Domene
+<ul>
+<li>Er et forgreningspunkt</li>
+</ul>
+</li>
+<li>Noder
+<ul>
+<li>En tilknytting</li>
+</ul>
+</li>
+<li>Navnerommet
+<ul>
+<li>Hele domenetreet</li>
+</ul>
+</li>
+<li>Sone
+<ul>
+<li>Del av navnerommet som en server har ‘kontroll’ på</li>
+</ul>
+</li>
+</ul><p><strong>THE</strong> FUCKING <strong>END!</strong></p></div>
+    <div class="ui-toc dropup unselectable hidden-print" style="display:none;">
+        <div class="pull-right dropdown">
+            <a id="tocLabel" class="ui-toc-label btn btn-default" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" title="Table of content">
+                <i class="fa fa-bars"></i>
+            </a>
+            <ul id="ui-toc" class="ui-toc-dropdown dropdown-menu" aria-labelledby="tocLabel">
+                <div class="toc"><ul class="nav">
+<li class=""><a href="#DAT217---Sammendrag" title="DAT217 - Sammendrag">DAT217 - Sammendrag</a><ul class="nav">
+<li class=""><a href="#01---Driftfilosofi" title="01 - Driftfilosofi">01 - Driftfilosofi</a><ul class="nav">
+<li class=""><a href="#Reactive-Management-Brannslukking" title="Reactive Management (Brannslukking)">Reactive Management (Brannslukking)</a></li>
+<li class=""><a href="#Proactive-Management-Forebyggende-Drift" title="Proactive Management (Forebyggende Drift)">Proactive Management (Forebyggende Drift)</a></li>
+<li class=""><a href="#Drift-av-nettverk" title="Drift av nettverk">Drift av nettverk</a></li>
+<li class=""><a href="#Feilhåndtering" title="Feilhåndtering">Feilhåndtering</a></li>
+<li><a href="#Brukshåndtering" title="Brukshåndtering">Brukshåndtering</a></li>
+<li class=""><a href="#Konfigurasjonshåndtering" title="Konfigurasjonshåndtering">Konfigurasjonshåndtering</a></li>
+<li class=""><a href="#Ytelsehåndtering" title="Ytelsehåndtering">Ytelsehåndtering</a></li>
+<li class=""><a href="#Sikkerhetshåndtering" title="Sikkerhetshåndtering">Sikkerhetshåndtering</a></li>
+<li class=""><a href="#IT-Operation-analytics" title="IT Operation analytics">IT Operation analytics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#02---Subnetting" title="02 - Subnetting">02 - Subnetting</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Subnetting" title="Subnetting">Subnetting</a></li>
+<li class=""><a href="#Subnett-maske" title="Subnett maske">Subnett maske</a></li>
+<li class=""><a href="#Subnet-kalkulator" title="Subnet kalkulator">Subnet kalkulator</a></li>
+<li class=""><a href="#DHCP" title="DHCP">DHCP</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#03---IPv6" title="03 - IPv6">03 - IPv6</a></li>
+<li class=""><a href="#04---Backup-Service" title="04 - Backup Service">04 - Backup Service</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Sikkerhetskopiering---Backup" title="Sikkerhetskopiering - Backup">Sikkerhetskopiering - Backup</a></li>
+<li class=""><a href="#Backup-system" title="Backup system">Backup system</a></li>
+<li class=""><a href="#ROS" title="ROS">ROS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#05---Virtualisering" title="05 - Virtualisering">05 - Virtualisering</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Begrepet" title="Begrepet">Begrepet</a></li>
+<li class=""><a href="#Grunner-til-virtualisering" title="Grunner til virtualisering">Grunner til virtualisering</a></li>
+<li class=""><a href="#Eksempler-på-virtualisering" title="Eksempler på virtualisering">Eksempler på virtualisering</a></li>
+<li class=""><a href="#Cloud-computing" title="Cloud computing">Cloud computing</a></li>
+<li class=""><a href="#VMM---Virtual-machine-Monitor-–-Hypervisor" title="VMM - Virtual machine Monitor – Hypervisor">VMM - Virtual machine Monitor – Hypervisor</a></li>
+<li class=""><a href="#Binary-translation" title="Binary translation">Binary translation</a></li>
+<li class=""><a href="#Detektere-virtualisering" title="Detektere virtualisering">Detektere virtualisering</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#06---DNS" title="06 - DNS">06 - DNS</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Navnegiving-av-maskiner" title="Navnegiving av maskiner">Navnegiving av maskiner</a></li>
+<li class=""><a href="#DNS---Domain-Name-System" title="DNS - Domain Name System">DNS - Domain Name System</a></li>
+<li class=""><a href="#Domenenavn" title="Domenenavn">Domenenavn</a></li>
+<li class=""><a href="#Navnetjenere" title="Navnetjenere">Navnetjenere</a></li>
+<li class=""><a href="#Resolver---klienten" title="Resolver - klienten">Resolver - klienten</a></li>
+<li><a href="#Type-navnetjenere" title="Type navnetjenere">Type navnetjenere</a></li>
+<li><a href="#Kommandoer-brukt-i-DNS" title="Kommandoer brukt i DNS">Kommandoer brukt i DNS</a></li>
+<li><a href="#Reverseoppslag" title="Reverseoppslag">Reverseoppslag</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#07---BIND" title="07 - BIND">07 - BIND</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Namedconf" title="Named.conf">Named.conf</a></li>
+<li><a href="#Sonefiler" title="Sonefiler">Sonefiler</a></li>
+<li><a href="#kommandoer-i-sonefiler" title="kommandoer i sonefiler">kommandoer i sonefiler</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#08---Mer-om-DNS" title="08 - Mer om DNS">08 - Mer om DNS</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Oppgaver-for-soneansvarlige" title="Oppgaver for soneansvarlige">Oppgaver for soneansvarlige</a></li>
+<li><a href="#Litt-om-ansvarlige" title="Litt om ansvarlige">Litt om ansvarlige</a></li>
+<li><a href="#DNSSEC" title="DNSSEC">DNSSEC</a></li>
+<li><a href="#Problemer-med-DNSSEC" title="Problemer med DNSSEC">Problemer med DNSSEC</a></li>
+<li><a href="#NSD---Name-Server-Deamon" title="NSD - Name Server Deamon">NSD - Name Server Deamon</a></li>
+<li><a href="#Unbound" title="Unbound">Unbound</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#10---Epost" title="10 - Epost">10 - Epost</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#De-forskjellige-tjenestene" title="De forskjellige tjenestene">De forskjellige tjenestene</a></li>
+<li><a href="#Form-på-e-post" title="Form på e-post">Form på e-post</a></li>
+<li><a href="#SMTP" title="SMTP">SMTP</a></li>
+<li><a href="#MIME" title="MIME">MIME</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#11---Postfix" title="11 - Postfix">11 - Postfix</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Viktige-filer-og-kataloger" title="Viktige filer og kataloger">Viktige filer og kataloger</a></li>
+<li><a href="#kommandoer" title="kommandoer">kommandoer</a></li>
+<li><a href="#Hva-må-være-klart-for-å-sette-opp-Postfix" title="Hva må være klart for å sette opp Postfix">Hva må være klart for å sette opp Postfix</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#12---e-Post-Dovecot" title="12 - e-Post, Dovecot">12 - e-Post, Dovecot</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#POP3" title="POP3">POP3</a></li>
+<li><a href="#POP3---Stadier" title="POP3 - Stadier">POP3 - Stadier</a></li>
+<li><a href="#IMAP4" title="IMAP4">IMAP4</a></li>
+<li><a href="#Dovecot" title="Dovecot">Dovecot</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13---IPtables" title="13 - IPtables">13 - IPtables</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Protokollstabeler" title="Protokollstabeler">Protokollstabeler</a></li>
+<li><a href="#Oppbygging-av-IPtables" title="Oppbygging av IPtables">Oppbygging av IPtables</a></li>
+<li><a href="#Tabeller" title="Tabeller">Tabeller</a></li>
+<li><a href="#Form-på-regler" title="Form på regler">Form på regler</a></li>
+<li><a href="#En-enkel-brannmur" title="En enkel brannmur">En enkel brannmur</a></li>
+<li><a href="#NAT---Enkel-ruting" title="NAT - Enkel ruting">NAT - Enkel ruting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#14---Apache" title="14 - Apache">14 - Apache</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#URI" title="URI">URI</a></li>
+<li><a href="#HTML" title="HTML">HTML</a></li>
+<li><a href="#HTTP" title="HTTP">HTTP</a></li>
+<li><a href="#HTTP-version-2-HTTP2" title="HTTP version 2 (HTTP/2)">HTTP version 2 (HTTP/2)</a></li>
+<li><a href="#HTTP-11-oppbygging" title="HTTP 1.1 oppbygging">HTTP 1.1 oppbygging</a></li>
+<li><a href="#Oppbygging-av-Apache" title="Oppbygging av Apache">Oppbygging av Apache</a></li>
+<li><a href="#Moduler-som-er-med" title="Moduler som er med">Moduler som er med</a></li>
+<li><a href="#Loggfiler" title="Loggfiler">Loggfiler</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#15---Apache-2" title="15 - Apache 2">15 - Apache 2</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Server-side-scripting" title="Server side scripting">Server side scripting</a></li>
+<li><a href="#CGI" title="CGI">CGI</a></li>
+<li><a href="#SSI---Server-Side-Includes" title="SSI - Server-Side Includes">SSI - Server-Side Includes</a></li>
+<li><a href="#Virtuelle-klienter" title="Virtuelle klienter">Virtuelle klienter</a></li>
+<li><a href="#Webserver-sikkerhet" title="Webserver sikkerhet">Webserver sikkerhet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#16---FTP---File-Transfer-protocol" title="16 - FTP - File Transfer protocol">16 - FTP - File Transfer protocol</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Anonymous-ftp" title="Anonymous ftp">Anonymous ftp</a></li>
+<li><a href="#Passiv-ftp" title="Passiv ftp">Passiv ftp</a></li>
+<li><a href="#Sikkerhet" title="Sikkerhet">Sikkerhet</a></li>
+<li><a href="#Metoder-for-å-sikre-ftp" title="Metoder for å sikre ftp">Metoder for å sikre ftp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#17---Nagios" title="17 - Nagios">17 - Nagios</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Overvåke-Windows-Maskiner" title="Overvåke Windows Maskiner">Overvåke Windows Maskiner</a></li>
+<li><a href="#Definere-hva-som-overvåkes" title="Definere hva som overvåkes">Definere hva som overvåkes</a></li>
+<li><a href="#Overvåke-snmp-enheter" title="Overvåke snmp enheter">Overvåke snmp enheter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Begreper" title="Begreper">Begreper</a><ul class="nav">
+<li><a href="#Driftsfilosofi" title="Driftsfilosofi">Driftsfilosofi</a></li>
+<li><a href="#SUBNETT" title="SUBNETT">SUBNETT</a></li>
+<li><a href="#Virtualisering" title="Virtualisering">Virtualisering</a></li>
+<li><a href="#IPv6" title="IPv6">IPv6</a></li>
+<li><a href="#Backup" title="Backup">Backup</a></li>
+<li><a href="#DNS" title="DNS">DNS</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+            </ul>
+        </div>
+    </div>
+    <div id="ui-toc-affix" class="ui-affix-toc ui-toc-dropdown unselectable hidden-print" data-spy="affix" style="top:17px;display:none;" null null>
+        <div class="toc"><ul class="nav">
+<li class=""><a href="#DAT217---Sammendrag" title="DAT217 - Sammendrag">DAT217 - Sammendrag</a><ul class="nav">
+<li class=""><a href="#01---Driftfilosofi" title="01 - Driftfilosofi">01 - Driftfilosofi</a><ul class="nav">
+<li class=""><a href="#Reactive-Management-Brannslukking" title="Reactive Management (Brannslukking)">Reactive Management (Brannslukking)</a></li>
+<li class=""><a href="#Proactive-Management-Forebyggende-Drift" title="Proactive Management (Forebyggende Drift)">Proactive Management (Forebyggende Drift)</a></li>
+<li class=""><a href="#Drift-av-nettverk" title="Drift av nettverk">Drift av nettverk</a></li>
+<li class=""><a href="#Feilhåndtering" title="Feilhåndtering">Feilhåndtering</a></li>
+<li><a href="#Brukshåndtering" title="Brukshåndtering">Brukshåndtering</a></li>
+<li class=""><a href="#Konfigurasjonshåndtering" title="Konfigurasjonshåndtering">Konfigurasjonshåndtering</a></li>
+<li class=""><a href="#Ytelsehåndtering" title="Ytelsehåndtering">Ytelsehåndtering</a></li>
+<li class=""><a href="#Sikkerhetshåndtering" title="Sikkerhetshåndtering">Sikkerhetshåndtering</a></li>
+<li class=""><a href="#IT-Operation-analytics" title="IT Operation analytics">IT Operation analytics</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#02---Subnetting" title="02 - Subnetting">02 - Subnetting</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Subnetting" title="Subnetting">Subnetting</a></li>
+<li class=""><a href="#Subnett-maske" title="Subnett maske">Subnett maske</a></li>
+<li class=""><a href="#Subnet-kalkulator" title="Subnet kalkulator">Subnet kalkulator</a></li>
+<li class=""><a href="#DHCP" title="DHCP">DHCP</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#03---IPv6" title="03 - IPv6">03 - IPv6</a></li>
+<li class=""><a href="#04---Backup-Service" title="04 - Backup Service">04 - Backup Service</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Sikkerhetskopiering---Backup" title="Sikkerhetskopiering - Backup">Sikkerhetskopiering - Backup</a></li>
+<li class=""><a href="#Backup-system" title="Backup system">Backup system</a></li>
+<li class=""><a href="#ROS" title="ROS">ROS</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#05---Virtualisering" title="05 - Virtualisering">05 - Virtualisering</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Begrepet" title="Begrepet">Begrepet</a></li>
+<li class=""><a href="#Grunner-til-virtualisering" title="Grunner til virtualisering">Grunner til virtualisering</a></li>
+<li class=""><a href="#Eksempler-på-virtualisering" title="Eksempler på virtualisering">Eksempler på virtualisering</a></li>
+<li class=""><a href="#Cloud-computing" title="Cloud computing">Cloud computing</a></li>
+<li class=""><a href="#VMM---Virtual-machine-Monitor-–-Hypervisor" title="VMM - Virtual machine Monitor – Hypervisor">VMM - Virtual machine Monitor – Hypervisor</a></li>
+<li class=""><a href="#Binary-translation" title="Binary translation">Binary translation</a></li>
+<li class=""><a href="#Detektere-virtualisering" title="Detektere virtualisering">Detektere virtualisering</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=""><a href="#06---DNS" title="06 - DNS">06 - DNS</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li class=""><a href="#Navnegiving-av-maskiner" title="Navnegiving av maskiner">Navnegiving av maskiner</a></li>
+<li class=""><a href="#DNS---Domain-Name-System" title="DNS - Domain Name System">DNS - Domain Name System</a></li>
+<li class=""><a href="#Domenenavn" title="Domenenavn">Domenenavn</a></li>
+<li class=""><a href="#Navnetjenere" title="Navnetjenere">Navnetjenere</a></li>
+<li class=""><a href="#Resolver---klienten" title="Resolver - klienten">Resolver - klienten</a></li>
+<li><a href="#Type-navnetjenere" title="Type navnetjenere">Type navnetjenere</a></li>
+<li><a href="#Kommandoer-brukt-i-DNS" title="Kommandoer brukt i DNS">Kommandoer brukt i DNS</a></li>
+<li><a href="#Reverseoppslag" title="Reverseoppslag">Reverseoppslag</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#07---BIND" title="07 - BIND">07 - BIND</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Namedconf" title="Named.conf">Named.conf</a></li>
+<li><a href="#Sonefiler" title="Sonefiler">Sonefiler</a></li>
+<li><a href="#kommandoer-i-sonefiler" title="kommandoer i sonefiler">kommandoer i sonefiler</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#08---Mer-om-DNS" title="08 - Mer om DNS">08 - Mer om DNS</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Oppgaver-for-soneansvarlige" title="Oppgaver for soneansvarlige">Oppgaver for soneansvarlige</a></li>
+<li><a href="#Litt-om-ansvarlige" title="Litt om ansvarlige">Litt om ansvarlige</a></li>
+<li><a href="#DNSSEC" title="DNSSEC">DNSSEC</a></li>
+<li><a href="#Problemer-med-DNSSEC" title="Problemer med DNSSEC">Problemer med DNSSEC</a></li>
+<li><a href="#NSD---Name-Server-Deamon" title="NSD - Name Server Deamon">NSD - Name Server Deamon</a></li>
+<li><a href="#Unbound" title="Unbound">Unbound</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#10---Epost" title="10 - Epost">10 - Epost</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#De-forskjellige-tjenestene" title="De forskjellige tjenestene">De forskjellige tjenestene</a></li>
+<li><a href="#Form-på-e-post" title="Form på e-post">Form på e-post</a></li>
+<li><a href="#SMTP" title="SMTP">SMTP</a></li>
+<li><a href="#MIME" title="MIME">MIME</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#11---Postfix" title="11 - Postfix">11 - Postfix</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Viktige-filer-og-kataloger" title="Viktige filer og kataloger">Viktige filer og kataloger</a></li>
+<li><a href="#kommandoer" title="kommandoer">kommandoer</a></li>
+<li><a href="#Hva-må-være-klart-for-å-sette-opp-Postfix" title="Hva må være klart for å sette opp Postfix">Hva må være klart for å sette opp Postfix</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#12---e-Post-Dovecot" title="12 - e-Post, Dovecot">12 - e-Post, Dovecot</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#POP3" title="POP3">POP3</a></li>
+<li><a href="#POP3---Stadier" title="POP3 - Stadier">POP3 - Stadier</a></li>
+<li><a href="#IMAP4" title="IMAP4">IMAP4</a></li>
+<li><a href="#Dovecot" title="Dovecot">Dovecot</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#13---IPtables" title="13 - IPtables">13 - IPtables</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Protokollstabeler" title="Protokollstabeler">Protokollstabeler</a></li>
+<li><a href="#Oppbygging-av-IPtables" title="Oppbygging av IPtables">Oppbygging av IPtables</a></li>
+<li><a href="#Tabeller" title="Tabeller">Tabeller</a></li>
+<li><a href="#Form-på-regler" title="Form på regler">Form på regler</a></li>
+<li><a href="#En-enkel-brannmur" title="En enkel brannmur">En enkel brannmur</a></li>
+<li><a href="#NAT---Enkel-ruting" title="NAT - Enkel ruting">NAT - Enkel ruting</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#14---Apache" title="14 - Apache">14 - Apache</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#URI" title="URI">URI</a></li>
+<li><a href="#HTML" title="HTML">HTML</a></li>
+<li><a href="#HTTP" title="HTTP">HTTP</a></li>
+<li><a href="#HTTP-version-2-HTTP2" title="HTTP version 2 (HTTP/2)">HTTP version 2 (HTTP/2)</a></li>
+<li><a href="#HTTP-11-oppbygging" title="HTTP 1.1 oppbygging">HTTP 1.1 oppbygging</a></li>
+<li><a href="#Oppbygging-av-Apache" title="Oppbygging av Apache">Oppbygging av Apache</a></li>
+<li><a href="#Moduler-som-er-med" title="Moduler som er med">Moduler som er med</a></li>
+<li><a href="#Loggfiler" title="Loggfiler">Loggfiler</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#15---Apache-2" title="15 - Apache 2">15 - Apache 2</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Server-side-scripting" title="Server side scripting">Server side scripting</a></li>
+<li><a href="#CGI" title="CGI">CGI</a></li>
+<li><a href="#SSI---Server-Side-Includes" title="SSI - Server-Side Includes">SSI - Server-Side Includes</a></li>
+<li><a href="#Virtuelle-klienter" title="Virtuelle klienter">Virtuelle klienter</a></li>
+<li><a href="#Webserver-sikkerhet" title="Webserver sikkerhet">Webserver sikkerhet</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#16---FTP---File-Transfer-protocol" title="16 - FTP - File Transfer protocol">16 - FTP - File Transfer protocol</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Anonymous-ftp" title="Anonymous ftp">Anonymous ftp</a></li>
+<li><a href="#Passiv-ftp" title="Passiv ftp">Passiv ftp</a></li>
+<li><a href="#Sikkerhet" title="Sikkerhet">Sikkerhet</a></li>
+<li><a href="#Metoder-for-å-sikre-ftp" title="Metoder for å sikre ftp">Metoder for å sikre ftp</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#17---Nagios" title="17 - Nagios">17 - Nagios</a><ul class="nav">
+<li class="invisable-node"><ul class="nav">
+<li><a href="#Overvåke-Windows-Maskiner" title="Overvåke Windows Maskiner">Overvåke Windows Maskiner</a></li>
+<li><a href="#Definere-hva-som-overvåkes" title="Definere hva som overvåkes">Definere hva som overvåkes</a></li>
+<li><a href="#Overvåke-snmp-enheter" title="Overvåke snmp enheter">Overvåke snmp enheter</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#Begreper" title="Begreper">Begreper</a><ul class="nav">
+<li><a href="#Driftsfilosofi" title="Driftsfilosofi">Driftsfilosofi</a></li>
+<li><a href="#SUBNETT" title="SUBNETT">SUBNETT</a></li>
+<li><a href="#Virtualisering" title="Virtualisering">Virtualisering</a></li>
+<li><a href="#IPv6" title="IPv6">IPv6</a></li>
+<li><a href="#Backup" title="Backup">Backup</a></li>
+<li><a href="#DNS" title="DNS">DNS</a></li>
+</ul>
+</li>
+</ul>
+</div><div class="toc-menu"><a class="expand-toggle" href="#">Expand all</a><a class="back-to-top" href="#">Back to top</a><a class="go-to-bottom" href="#">Go to bottom</a></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gist-embed/2.6.0/gist-embed.min.js" integrity="sha256-KyF2D6xPIJUW5sUDSs93vWyZm+1RzIpKCexxElmxl8g=" crossorigin="anonymous" defer></script>
+    <script>
+        var markdown = $(".markdown-body");
+        //smooth all hash trigger scrolling
+        function smoothHashScroll() {
+            var hashElements = $("a[href^='#']").toArray();
+            for (var i = 0; i < hashElements.length; i++) {
+                var element = hashElements[i];
+                var $element = $(element);
+                var hash = element.hash;
+                if (hash) {
+                    $element.on('click', function (e) {
+                        // store hash
+                        var hash = this.hash;
+                        if ($(hash).length <= 0) return;
+                        // prevent default anchor click behavior
+                        e.preventDefault();
+                        // animate
+                        $('body, html').stop(true, true).animate({
+                            scrollTop: $(hash).offset().top
+                        }, 100, "linear", function () {
+                            // when done, add hash to url
+                            // (default click behaviour)
+                            window.location.hash = hash;
+                        });
+                    });
+                }
+            }
+        }
+
+        smoothHashScroll();
+        var toc = $('.ui-toc');
+        var tocAffix = $('.ui-affix-toc');
+        var tocDropdown = $('.ui-toc-dropdown');
+        //toc
+        tocDropdown.click(function (e) {
+            e.stopPropagation();
+        });
+
+        var enoughForAffixToc = true;
+
+        function generateScrollspy() {
+            $(document.body).scrollspy({
+                target: ''
+            });
+            $(document.body).scrollspy('refresh');
+            if (enoughForAffixToc) {
+                toc.hide();
+                tocAffix.show();
+            } else {
+                tocAffix.hide();
+                toc.show();
+            }
+            $(document.body).scroll();
+        }
+
+        function windowResize() {
+            //toc right
+            var paddingRight = parseFloat(markdown.css('padding-right'));
+            var right = ($(window).width() - (markdown.offset().left + markdown.outerWidth() - paddingRight));
+            toc.css('right', right + 'px');
+            //affix toc left
+            var newbool;
+            var rightMargin = (markdown.parent().outerWidth() - markdown.outerWidth()) / 2;
+            //for ipad or wider device
+            if (rightMargin >= 133) {
+                newbool = true;
+                var affixLeftMargin = (tocAffix.outerWidth() - tocAffix.width()) / 2;
+                var left = markdown.offset().left + markdown.outerWidth() - affixLeftMargin;
+                tocAffix.css('left', left + 'px');
+            } else {
+                newbool = false;
+            }
+            if (newbool != enoughForAffixToc) {
+                enoughForAffixToc = newbool;
+                generateScrollspy();
+            }
+        }
+        $(window).resize(function () {
+            windowResize();
+        });
+        $(document).ready(function () {
+            windowResize();
+            generateScrollspy();
+        });
+
+        //remove hash
+        function removeHash() {
+            window.location.hash = '';
+        }
+
+        var backtotop = $('.back-to-top');
+        var gotobottom = $('.go-to-bottom');
+
+        backtotop.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToTop)
+                scrollToTop();
+            removeHash();
+        });
+        gotobottom.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            if (scrollToBottom)
+                scrollToBottom();
+            removeHash();
+        });
+
+        var toggle = $('.expand-toggle');
+        var tocExpand = false;
+
+        checkExpandToggle();
+        toggle.click(function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            tocExpand = !tocExpand;
+            checkExpandToggle();
+        })
+
+        function checkExpandToggle () {
+            var toc = $('.ui-toc-dropdown .toc');
+            var toggle = $('.expand-toggle');
+            if (!tocExpand) {
+                toc.removeClass('expand');
+                toggle.text('Expand all');
+            } else {
+                toc.addClass('expand');
+                toggle.text('Collapse all');
+            }
+        }
+
+        function scrollToTop() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: 0
+            }, 100, "linear");
+        }
+
+        function scrollToBottom() {
+            $('body, html').stop(true, true).animate({
+                scrollTop: $(document.body)[0].scrollHeight
+            }, 100, "linear");
+        }
+    </script>
+</body>
+
+</html>
