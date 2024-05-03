@@ -1,9 +1,22 @@
 site_name: kopimi.datapor.no
+repo_url: https://github.com/skandix/kopimi.datapor.no
+repo_name: kopimi.datapor.no
 extra_css:
   - stylesheets/extra.css
+validation:
+  omitted_files: warn
+  absolute_links: warn  # Or 'relative_to_docs' - new in MkDocs 1.6
+  unrecognized_links: warn
+# plugins:
+#   - search:
+#       indexing: 'full'
 theme:
   name: material
-  font: false
+  font: true
+  locale: "no"
+  highlightjs: true
+  features:
+    - navigation.instant
   palette:
     # Toggle light mode
     - scheme: default
@@ -27,8 +40,9 @@ theme:
     - navigation.expand
     - navigation.instant
     - header.autohide
-markdown_extensions:
-  - pymdownx.highlight:
-      linenums: true
-      linenums_style: pymdownx.inline
-  - pymdownx.superfences
+  markdown_extensions:
+    toc:
+      permalink: "#"
+      baselevel: 1
+    sane_lists: {}
+    admonition: {}
